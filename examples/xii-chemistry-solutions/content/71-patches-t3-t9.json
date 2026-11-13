@@ -1,0 +1,1562 @@
+{
+ "patches": {
+  "t3-q3": {
+   "check": {
+    "answer": 5.7372e-06,
+    "units": [],
+    "tol": 3e-08,
+    "mistakes": [
+     {
+      "answer": 0.00574,
+      "tol": 3e-05,
+      "msg": "Check the units of $K_H$: 34.86 kbar = 34 860 bar, not 34.86 bar."
+     }
+    ]
+   },
+   "hints": [
+    "Henry's law: $x = p/K_H$.",
+    "Put both pressures in bar: 34.86 kbar = 34 860 bar."
+   ]
+  },
+  "t3-q7": {
+   "check": {
+    "answer": 2.9275,
+    "units": [
+     "g"
+    ],
+    "tol": 0.04,
+    "mistakes": [
+     {
+      "answer": 0.0665,
+      "tol": 0.001,
+      "msg": "That is the amount in moles. Multiply by the molar mass of CO$_2$ (44 g mol$^{-1}$)."
+     }
+    ]
+   },
+   "hints": [
+    "First find the mole fraction: $x = p/K_H$ with both in bar.",
+    "1 L of water ≈ 55.5 mol; for a dilute solution $n_{\\text{CO}_2} \\approx x \\times 55.5$. Then × 44 g mol$^{-1}$."
+   ]
+  },
+  "t4-q2": {
+   "check": {
+    "answer": 320.0,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.5,
+    "prompt": "Enter the total vapour pressure. Use 'Check a step' for $y_A$.",
+    "steps": [
+     {
+      "label": "$y_A$, mole fraction of A in the vapour",
+      "unit": "",
+      "answer": 0.375,
+      "tol": 0.002,
+      "expr": "120/320"
+     }
+    ],
+    "mistakes": [
+     {
+      "answer": 380,
+      "tol": 0.5,
+      "msg": "You used $x_B$ = 0.6. Since $x_A$ = 0.6, $x_B$ = 1 − 0.6 = 0.4."
+     }
+    ]
+   },
+   "hints": [
+    "Raoult's law for each liquid: $p_A = x_Ap_A^\\circ$, $p_B = x_Bp_B^\\circ$ with $x_B = 0.4$.",
+    "Total = $p_A + p_B$; then $y_A = p_A/p_{\\text{total}}$."
+   ]
+  },
+  "t4-q5": {
+   "check": {
+    "answer": 0.5,
+    "units": [],
+    "tol": 0.005,
+    "expr": "0.5",
+    "mistakes": [
+     {
+      "answer": 0.75,
+      "tol": 0.003,
+      "msg": "0.75 is the mole fraction in the **vapour**. The question asks for the liquid."
+     }
+    ]
+   },
+   "hints": [
+    "Write $y_A = \\dfrac{x_Ap_A^\\circ}{x_Ap_A^\\circ + (1 - x_A)p_B^\\circ}$ and set it equal to 0.75.",
+    "Cross-multiply and solve the linear equation for $x_A$."
+   ]
+  },
+  "t5-q9.3": {
+   "check": {
+    "answer": 0.625,
+    "units": [],
+    "tol": 0.003
+   },
+   "hints": [
+    "Ideal: $p_X = x_Xp_X^\\circ$ and $p_Y = x_Yp_Y^\\circ$.",
+    "$y_X = p_X/(p_X + p_Y)$."
+   ]
+  },
+  "t6-q2": {
+   "check": {
+    "answer": 17.325,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.03,
+    "mistakes": [
+     {
+      "answer": 0.175,
+      "tol": 0.003,
+      "msg": "That is the lowering, $\\Delta p$. The question asks for the vapour pressure of the solution: 17.5 − 0.175."
+     }
+    ]
+   },
+   "hints": [
+    "Moles: glucose 18/180, water 178.2/18.",
+    "$p = x_{\\text{water}} \\times 17.5$."
+   ]
+  },
+  "t6-q5": {
+   "check": {
+    "answer": 170.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 1.5
+   },
+   "hints": [
+    "Dilute form: $\\dfrac{p^\\circ - p}{p^\\circ} = \\dfrac{w_2M_1}{M_2w_1}$.",
+    "Relative lowering = 0.005/0.850; rearrange for $M_2$."
+   ]
+  },
+  "t6-q7": {
+   "check": {
+    "answer": 0.02,
+    "units": [],
+    "tol": 0.0005,
+    "mistakes": [
+     {
+      "answer": 0.48,
+      "tol": 0.005,
+      "msg": "0.48 mm Hg is the lowering. Divide by $p^\\circ$ (24.0) to get the relative lowering = $x_2$."
+     }
+    ]
+   },
+   "hints": [
+    "Relative lowering of vapour pressure equals the mole fraction of solute."
+   ]
+  },
+  "t7-q2": {
+   "check": {
+    "answer": 272.78,
+    "units": [
+     "K"
+    ],
+    "tol": 0.01,
+    "kind": "temperature",
+    "scale": "K",
+    "delta": 0.372
+   },
+   "hints": [
+    "Moles of sucrose = 3.42/342; molality uses 50 g = 0.050 kg.",
+    "$\\Delta T_f = K_fm$; then subtract from 273.15 K."
+   ]
+  },
+  "t7-q4": {
+   "check": {
+    "answer": 200.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 1
+   },
+   "hints": [
+    "$M_2 = \\dfrac{1000 \\times K_f \\times w_2}{\\Delta T_f \\times w_1}$."
+   ]
+  },
+  "t7-q7": {
+   "check": {
+    "answer": 15.0,
+    "units": [
+     "g"
+    ],
+    "tol": 0.1,
+    "mistakes": [
+     {
+      "answer": 30,
+      "tol": 0.2,
+      "msg": "You found the mass for 1 kg of water. The question has 500 g = 0.5 kg."
+     }
+    ]
+   },
+   "hints": [
+    "Find the molality needed: $m = \\Delta T_b/K_b$.",
+    "500 g water = 0.5 kg, so moles = $m \\times 0.5$; then × 60 g mol$^{-1}$."
+   ]
+  },
+  "t8-q2": {
+   "check": {
+    "answer": 2.463,
+    "units": [
+     "atm"
+    ],
+    "tol": 0.02,
+    "mistakes": [
+     {
+      "answer": 0.2217,
+      "tol": 0.002,
+      "msg": "Use kelvin: 27 °C = 300 K, not 27."
+     }
+    ]
+   },
+   "hints": [
+    "$\\pi = CRT$ with $T$ in kelvin: 27 °C = 300 K."
+   ]
+  },
+  "t8-q5": {
+   "check": {
+    "answer": 49260.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 300,
+    "mistakes": [
+     {
+      "answer": 49.26,
+      "tol": 0.5,
+      "msg": "Check the volume: 250 mL = 0.250 L, not 250."
+     }
+    ]
+   },
+   "hints": [
+    "$M_2 = \\dfrac{w_2RT}{\\pi V}$ with $V$ in litres.",
+    "250 mL = 0.250 L."
+   ]
+  },
+  "t8-q8.3": {
+   "check": {
+    "answer": 7.8311,
+    "units": [
+     "atm"
+    ],
+    "tol": 0.08,
+    "mistakes": [
+     {
+      "answer": 3.915,
+      "tol": 0.04,
+      "msg": "You left out $i$ = 2: NaCl gives two ions."
+     }
+    ]
+   },
+   "hints": [
+    "0.9% (w/V) means 0.9 g per 100 mL, i.e. 9 g per litre.",
+    "$\\pi = iCRT$ with $i$ = 2 and $T$ = 310 K."
+   ]
+  },
+  "t9-q3": {
+   "check": {
+    "answer": 10.0,
+    "units": [
+     "%",
+     "percent"
+    ],
+    "tol": 0.3,
+    "expr": "(0.2046/0.186-1)*100",
+    "alts": [
+     {
+      "answer": 0.1,
+      "units": [],
+      "tol": 0.006
+     }
+    ]
+   },
+   "hints": [
+    "Calculated $\\Delta T_f$ (no dissociation) = $K_fm$.",
+    "$i$ = observed/calculated; for HA → H$^+$ + A$^-$, $\\alpha = i - 1$."
+   ]
+  },
+  "t9-q5": {
+   "check": {
+    "answer": 75.0,
+    "units": [
+     "%",
+     "percent"
+    ],
+    "tol": 0.5,
+    "expr": "(2*(1-0.32/0.512))*100",
+    "alts": [
+     {
+      "answer": 0.75,
+      "units": [],
+      "tol": 0.005
+     }
+    ],
+    "mistakes": [
+     {
+      "answer": 37.5,
+      "tol": 0.5,
+      "msg": "That is $1 - i$. For dimerisation $\\alpha = 2(1 - i)$."
+     }
+    ]
+   },
+   "hints": [
+    "Calculated $\\Delta T_f$ with the normal molar mass 122.",
+    "$i$ = observed/calculated; for a dimer $\\alpha = 2(1 - i)$."
+   ]
+  },
+  "t9-q7": {
+   "check": {
+    "answer": 0.05022,
+    "units": [
+     "K"
+    ],
+    "tol": 0.0006,
+    "mistakes": [
+     {
+      "answer": 0.0186,
+      "tol": 0.0003,
+      "msg": "You left out $i$. Multiply by 2.70."
+     }
+    ]
+   },
+   "hints": [
+    "$\\Delta T_f = iK_fm$ with the given $i$ = 2.70."
+   ]
+  },
+  "t9-q10": {
+   "check": {
+    "answer": 0.8,
+    "units": [],
+    "tol": 0.005,
+    "alts": [
+     {
+      "answer": 80,
+      "units": [
+       "%",
+       "percent"
+      ],
+      "tol": 0.5
+     }
+    ],
+    "mistakes": [
+     {
+      "answer": 1.6,
+      "tol": 0.01,
+      "msg": "You used $n$ − 1 = 1. Ca(NO$_3$)$_2$ gives 3 ions, so divide by 2."
+     }
+    ]
+   },
+   "hints": [
+    "How many ions does Ca(NO$_3$)$_2$ give? $n$ = 3.",
+    "$\\alpha = (i - 1)/(n - 1)$."
+   ]
+  },
+  "py52": {
+   "check": {
+    "answer": 0.35156,
+    "units": [],
+    "tol": 0.006
+   },
+   "hints": [
+    "$\\Delta T_b = 100.18 - 100 = 0.18$ K.",
+    "$i = \\Delta T_b/(K_bm)$."
+   ]
+  },
+  "py52-or": {
+   "check": {
+    "answer": 0.000608,
+    "units": [],
+    "tol": 3e-06
+   },
+   "hints": [
+    "Henry's law: $x = p/K_H$, both in mm Hg."
+   ]
+  },
+  "py59": {
+   "check": {
+    "answer": 180.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 1.5
+   },
+   "hints": [
+    "Relative lowering = (32 − 31.84)/32.",
+    "Dilute form: relative lowering = $\\dfrac{w_2 \\times 18}{M_2 \\times w_1}$."
+   ]
+  },
+  "py61": {
+   "check": {
+    "answer": 0.16216,
+    "units": [
+     "K"
+    ],
+    "tol": 0.003,
+    "mistakes": [
+     {
+      "answer": 0.054,
+      "tol": 0.001,
+      "msg": "You left out $i$ = 3 for CaCl$_2$."
+     }
+    ]
+   },
+   "hints": [
+    "CaCl$_2$ gives 3 ions: $i$ = 3.",
+    "$m = \\dfrac{3 \\times 1000}{111 \\times 260}$; $\\Delta T_b = iK_bm$."
+   ]
+  },
+  "py61-or": {
+   "check": {
+    "answer": 140.0,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.5
+   },
+   "hints": [
+    "Equal moles: $x_X = x_Y = 0.5$.",
+    "$p = x_Xp_X^\\circ + x_Yp_Y^\\circ$."
+   ]
+  },
+  "py70": {
+   "check": {
+    "answer": 75.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.8
+   },
+   "hints": [
+    "Isotonic non-electrolytes at the same temperature have equal molar concentrations.",
+    "$\\dfrac{6}{180} = \\dfrac{2.5}{M}$."
+   ]
+  },
+  "py71": {
+   "check": {
+    "answer": 155.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 1.5
+   },
+   "hints": [
+    "$\\Delta T_f = 273.15 - 272.07$.",
+    "$M_2 = \\dfrac{1000 \\times K_f \\times w_2}{\\Delta T_f \\times w_1}$."
+   ]
+  },
+  "py73": {
+   "check": {
+    "answer": 20.525,
+    "units": [
+     "atm"
+    ],
+    "tol": 0.2,
+    "mistakes": [
+     {
+      "answer": 2.05,
+      "tol": 0.03,
+      "msg": "Check the volume: 5 g is in 100 mL = 0.1 L, so $C$ = (5/60)/0.1."
+     }
+    ]
+   },
+   "hints": [
+    "5% (w/V) means 5 g in 100 mL; find $C$ in mol L$^{-1}$.",
+    "$\\pi = CRT$."
+   ]
+  },
+  "py73-or": {
+   "check": {
+    "answer": 342.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 2
+   },
+   "hints": [
+    "Same freezing point and same mass of water → same number of moles.",
+    "$\\dfrac{7.5}{60} = \\dfrac{42.75}{M_Z}$."
+   ]
+  },
+  "py77": {
+   "check": {
+    "answer": 0.000608,
+    "units": [],
+    "tol": 3e-06
+   },
+   "hints": [
+    "$x = p/K_H$ with both pressures in mm Hg."
+   ]
+  },
+  "py84": {
+   "check": {
+    "answer": 270.67,
+    "units": [
+     "K"
+    ],
+    "tol": 0.02,
+    "kind": "temperature",
+    "scale": "K",
+    "delta": 2.48
+   },
+   "hints": [
+    "$m = \\dfrac{60 \\times 1000}{180 \\times 250}$.",
+    "$\\Delta T_f = K_fm$; $T_f = 273.15 - \\Delta T_f$."
+   ]
+  },
+  "py85": {
+   "check": {
+    "answer": 128.25,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 1
+   },
+   "hints": [
+    "$\\Delta T_b$ = 36.86 − 35.60 K (a change of 1 °C = 1 K).",
+    "$M_2 = \\dfrac{1000 \\times K_b \\times w_2}{\\Delta T_b \\times w_1}$."
+   ]
+  },
+  "py86": {
+   "check": {
+    "answer": 47.488,
+    "units": [
+     "°C",
+     "degC",
+     "C"
+    ],
+    "tol": 0.012,
+    "kind": "temperature",
+    "scale": "C",
+    "delta": 1.29,
+    "mistakes": [
+     {
+      "answer": 48.5,
+      "tol": 0.02,
+      "msg": "You left out $i$. Benzoic acid dimerises, so $i = 1 - 0.88/2 = 0.56$."
+     }
+    ]
+   },
+   "hints": [
+    "Dimerisation: $i = 1 - \\alpha/2$ with $\\alpha$ = 0.88.",
+    "$m = \\dfrac{0.61 \\times 1000}{122 \\times 5}$; $\\Delta T_b = iK_bm$; add to 46.2 °C."
+   ]
+  },
+  "py87": {
+   "check": {
+    "answer": 1.4458,
+    "units": [
+     "M",
+     "mol L-1",
+     "mol/L",
+     "mol dm-3",
+     "molar"
+    ],
+    "tol": 0.01,
+    "prompt": "Enter the molarity. Use 'Check a step' for the molality.",
+    "steps": [
+     {
+      "label": "Molality",
+      "unit": "mol kg$^{-1}$",
+      "answer": 1.506,
+      "tol": 0.01,
+      "expr": "(20/166)/0.08"
+     }
+    ]
+   },
+   "hints": [
+    "Take 100 g of solution: 20 g KI, 80 g water.",
+    "Molarity needs the solution's volume: 100 g ÷ 1.2 g mL$^{-1}$."
+   ]
+  },
+  "py88": {
+   "check": {
+    "answer": 60.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.6
+   },
+   "hints": [
+    "$\\Delta T_b$ = 353.93 − 353.23 K.",
+    "$M_2 = \\dfrac{1000 \\times K_b \\times w_2}{\\Delta T_b \\times w_1}$."
+   ]
+  },
+  "py89": {
+   "check": {
+    "answer": 271.6,
+    "units": [
+     "K"
+    ],
+    "tol": 0.01,
+    "kind": "temperature",
+    "scale": "K",
+    "delta": 1.55
+   },
+   "hints": [
+    "$m = \\dfrac{31 \\times 1000}{62 \\times 600}$.",
+    "$T_f = 273.15 - K_fm$."
+   ]
+  },
+  "py90": {
+   "check": {
+    "answer": 63.426,
+    "units": [
+     "torr",
+     "mm Hg",
+     "mmHg"
+    ],
+    "tol": 0.15
+   },
+   "hints": [
+    "Complete dimerisation: $i$ = 0.5.",
+    "$\\dfrac{p^\\circ - p}{p^\\circ} = i\\dfrac{n_2}{n_1}$ with $n_1$ = 500/78."
+   ]
+  },
+  "py91": {
+   "check": {
+    "answer": 97.52,
+    "units": [
+     "%",
+     "percent"
+    ],
+    "tol": 0.15,
+    "expr": "(2*(1-2.94/(4.9*5*1000/(122*35))))*100",
+    "note": "The marking scheme prints 97.6% (it rounds $i$ to 0.512 first); both are accepted here.",
+    "alts": [
+     {
+      "answer": 0.975,
+      "units": [],
+      "tol": 0.0015
+     }
+    ],
+    "mistakes": [
+     {
+      "answer": 48.8,
+      "tol": 0.2,
+      "msg": "That is $1 - i$. For a dimer $\\alpha = 2(1 - i)$."
+     }
+    ]
+   },
+   "hints": [
+    "Calculated $\\Delta T_f$ (no association) uses the normal molar mass 122.",
+    "$i$ = observed/calculated; dimer: $\\alpha = 2(1 - i)$."
+   ]
+  },
+  "py92": {
+   "check": {
+    "answer": 271.58,
+    "units": [
+     "K"
+    ],
+    "tol": 0.01,
+    "kind": "temperature",
+    "scale": "K",
+    "delta": 1.57,
+    "mistakes": [
+     {
+      "answer": 272.626,
+      "tol": 0.006,
+      "msg": "You left out $i$ = 3 for Na$_2$SO$_4$."
+     }
+    ]
+   },
+   "hints": [
+    "Na$_2$SO$_4$ gives 3 ions: $i$ = 3.",
+    "$\\Delta T_f = iK_fm$; subtract from 273.15 K."
+   ]
+  },
+  "py93": {
+   "check": {
+    "answer": 0.072,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.003,
+    "note": "The marking scheme prints 0.07 mm Hg.",
+    "alts": [
+     {
+      "answer": 0.07,
+      "units": [
+       "mm Hg",
+       "mmHg",
+       "mm"
+      ],
+      "tol": 0.0006
+     }
+    ]
+   },
+   "hints": [
+    "From the freezing point: $m = \\Delta T_f/K_f$.",
+    "In 1 kg water (55.5 mol), $\\Delta p/p^\\circ \\approx m/55.5$."
+   ]
+  },
+  "py94": {
+   "check": {
+    "answer": 60.0,
+    "units": [
+     "%",
+     "percent"
+    ],
+    "tol": 0.3,
+    "expr": "(40/25-1)*100",
+    "alts": [
+     {
+      "answer": 0.6,
+      "units": [],
+      "tol": 0.003
+     }
+    ]
+   },
+   "hints": [
+    "$i$ = normal molar mass (40) ÷ observed (25).",
+    "NaOH gives 2 ions: $\\alpha = i - 1$."
+   ]
+  },
+  "py95": {
+   "check": {
+    "answer": 94.531,
+    "units": [
+     "%",
+     "percent"
+    ],
+    "tol": 0.15,
+    "expr": "(2*(1-0.45/(5.12*0.3*1000/(60*30))))*100",
+    "note": "The marking scheme prints 94.6% (it rounds $i$ to 0.527 first).",
+    "alts": [
+     {
+      "answer": 0.945,
+      "units": [],
+      "tol": 0.0015
+     }
+    ]
+   },
+   "hints": [
+    "Calculated $\\Delta T_f$ with the normal molar mass 60.",
+    "$i$ = observed/calculated; dimer: $\\alpha = 2(1 - i)$."
+   ]
+  },
+  "py97": {
+   "check": {
+    "answer": -0.72656,
+    "units": [
+     "°C",
+     "degC",
+     "C"
+    ],
+    "tol": 0.005,
+    "kind": "temperature",
+    "scale": "C",
+    "delta": 0.727,
+    "note": "The marking scheme prints −0.725 °C (it rounds the molality to 0.390)."
+   },
+   "hints": [
+    "Same solution: find $m$ from the boiling point, $m = \\Delta T_b/K_b$.",
+    "$\\Delta T_f = K_fm$; the freezing point is 0 − $\\Delta T_f$ °C."
+   ]
+  },
+  "py98": {
+   "check": {
+    "answer": 90.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.8
+   },
+   "hints": [
+    "Relative lowering = 0.16/32 = 0.005.",
+    "$M_2 = \\dfrac{w_2 \\times 18}{0.005 \\times w_1}$."
+   ]
+  },
+  "py99": {
+   "check": {
+    "answer": 96.0,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.2,
+    "mistakes": [
+     {
+      "answer": 98,
+      "tol": 0.1,
+      "msg": "You left out $i$ = 2."
+     }
+    ]
+   },
+   "hints": [
+    "AB → A$^+$ + B$^-$: $i$ = 2.",
+    "Dilute: $\\dfrac{p^\\circ - p}{p^\\circ} = i\\dfrac{n_2}{n_1}$."
+   ]
+  },
+  "py100": {
+   "check": {
+    "answer": 0.34667,
+    "units": [
+     "K"
+    ],
+    "tol": 0.008,
+    "note": "The marking scheme rounds to 0.34 K.",
+    "mistakes": [
+     {
+      "answer": 0.1733,
+      "tol": 0.002,
+      "msg": "You left out $i$ = 2."
+     }
+    ]
+   },
+   "hints": [
+    "MgSO$_4$ → Mg$^{2+}$ + SO$_4^{2-}$: $i$ = 2.",
+    "$m = \\dfrac{4 \\times 1000}{120 \\times 100}$; $\\Delta T_b = iK_bm$."
+   ]
+  },
+  "py101": {
+   "check": {
+    "answer": 23.549,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.03,
+    "prompt": "Enter your answer to (b)."
+   },
+   "hints": [
+    "Moles: urea 30/60, water 846/18.",
+    "$p = x_{\\text{water}} \\times 23.8$."
+   ]
+  },
+  "py102": {
+   "check": {
+    "answer": 94.438,
+    "units": [
+     "%",
+     "percent"
+    ],
+    "tol": 0.3,
+    "expr": "(2*(1-6.5/(0.5*0.0821*300)))*100",
+    "alts": [
+     {
+      "answer": 0.944,
+      "units": [],
+      "tol": 0.003
+     }
+    ]
+   },
+   "hints": [
+    "Calculated (no association): $C = \\dfrac{6.1/122}{0.1}$, $\\pi = CRT$.",
+    "$i = \\pi_{\\text{obs}}/\\pi_{\\text{calc}}$; dimer: $\\alpha = 2(1 - i)$."
+   ]
+  },
+  "py103": {
+   "check": {
+    "answer": 0.075269,
+    "units": [],
+    "tol": 0.0012,
+    "alts": [
+     {
+      "answer": 7.53,
+      "units": [
+       "%",
+       "percent"
+      ],
+      "tol": 0.12
+     }
+    ]
+   },
+   "hints": [
+    "$m$ = (19.5/78)/0.5; calculated $\\Delta T_f = K_fm$.",
+    "$i$ = 1/calculated; $\\alpha = i - 1$."
+   ]
+  },
+  "py105": {
+   "check": {
+    "answer": 50902.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 60,
+    "prompt": "Enter your answer to (b), the molar mass.",
+    "note": "The marking scheme prints 50 902 g mol$^{-1}$."
+   },
+   "hints": [
+    "$M_2 = \\dfrac{w_2RT}{\\pi V}$ with $V$ in litres."
+   ]
+  },
+  "py106": {
+   "check": {
+    "answer": 342.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 2
+   },
+   "hints": [
+    "$M_2 = \\dfrac{1000 \\times K_b \\times w_2}{\\Delta T_b \\times w_1}$."
+   ]
+  },
+  "py108": {
+   "check": {
+    "answer": 19.892,
+    "units": [
+     "g"
+    ],
+    "tol": 0.15,
+    "mistakes": [
+     {
+      "answer": 59.68,
+      "tol": 0.3,
+      "msg": "You left out $i$ = 3."
+     }
+    ]
+   },
+   "hints": [
+    "CaCl$_2$: $i$ = 3. $m = \\Delta T_f/(iK_f)$.",
+    "500 g water = 0.5 kg; moles × 111 g mol$^{-1}$."
+   ]
+  },
+  "py108-or": {
+   "check": {
+    "answer": 60.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.6
+   },
+   "hints": [
+    "Relative lowering = 0.375/23.75.",
+    "Dilute form: $= \\dfrac{5 \\times 18}{M_2 \\times 95}$."
+   ]
+  },
+  "py109": {
+   "check": {
+    "answer": 88.53,
+    "units": [
+     "%",
+     "percent"
+    ],
+    "tol": 0.4,
+    "expr": "((0.068/0.0186-1)/3)*100",
+    "alts": [
+     {
+      "answer": 0.885,
+      "units": [],
+      "tol": 0.004
+     }
+    ]
+   },
+   "hints": [
+    "Calculated $\\Delta T_f = K_fm$ = 0.0186 K; $i$ = 0.068/0.0186.",
+    "AlCl$_3$ gives 4 ions: $\\alpha = (i - 1)/3$."
+   ]
+  },
+  "py110": {
+   "check": {
+    "answer": 7.1427,
+    "units": [
+     "atm"
+    ],
+    "tol": 0.02
+   },
+   "hints": [
+    "Na$_2$SO$_4$ gives 3 ions: $i = 1 + 2\\alpha$.",
+    "$\\pi = iCRT$ with $T$ = 300 K."
+   ]
+  },
+  "py111": {
+   "check": {
+    "answer": 0.96053,
+    "units": [],
+    "tol": 0.006,
+    "alts": [
+     {
+      "answer": 96,
+      "units": [
+       "%",
+       "percent"
+      ],
+      "tol": 0.6
+     }
+    ]
+   },
+   "hints": [
+    "Isotonic: $i \\times C_{\\text{KCl}} = C_{\\text{urea}}$ (same temperature).",
+    "$\\alpha = i - 1$ for KCl."
+   ]
+  },
+  "py112": {
+   "check": {
+    "answer": 268.35,
+    "units": [
+     "K"
+    ],
+    "tol": 0.03,
+    "kind": "temperature",
+    "scale": "K",
+    "delta": 4.8
+   },
+   "hints": [
+    "Use the sucrose data to find $K_f$ (or compare molalities directly).",
+    "Glucose: $m = (5/180)/0.095$; $\\Delta T_f = K_fm$."
+   ]
+  },
+  "py113": {
+   "check": {
+    "answer": 0.05087,
+    "units": [
+     "M",
+     "mol L-1",
+     "mol/L",
+     "mol dm-3",
+     "molar"
+    ],
+    "tol": 0.0004,
+    "note": "The marking scheme prints 0.0506 M (it rounds 30/180 to 0.166 first).",
+    "alts": [
+     {
+      "answer": 0.0506,
+      "units": [
+       "M",
+       "mol L-1",
+       "mol/L",
+       "mol dm-3",
+       "molar"
+      ],
+      "tol": 0.0002
+     }
+    ]
+   },
+   "hints": [
+    "At the same temperature $\\pi \\propto C$.",
+    "$C_2 = C_1 \\times 1.52/4.98$ with $C_1$ = 30/180."
+   ]
+  },
+  "py130": {
+   "check": {
+    "answer": 1.8,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.02,
+    "prompt": "Enter your answer to (I).",
+    "mistakes": [
+     {
+      "answer": 3.6,
+      "tol": 0.03,
+      "msg": "You used the dilute shortcut $n_B/n_A$ = 0.5. For a 50% lowering use the exact form."
+     }
+    ]
+   },
+   "hints": [
+    "A 50% lowering is large: use the exact form $\\dfrac{p^\\circ - p}{p^\\circ} = \\dfrac{n_B}{n_A + n_B}$.",
+    "With $n_A$ = 1000/18, solve 0.5 = $n_B/(n_A + n_B)$."
+   ]
+  },
+  "py134": {
+   "check": {
+    "answer": 22.813,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.05
+   },
+   "hints": [
+    "$i = 1 + 2\\alpha$ for MgCl$_2$.",
+    "Relative lowering = $\\dfrac{i\\,n_B}{n_A + i\\,n_B}$ with $n_A$ = 55.5."
+   ]
+  },
+  "py115.1": {
+   "check": {
+    "answer": 3.0,
+    "units": [
+     "g"
+    ],
+    "tol": 0.05
+   },
+   "hints": [
+    "$\\pi = i\\dfrac{w}{MV}RT$; rearrange for $w$.",
+    "$T$ = 300 K; $V$ = 2.46 L."
+   ]
+  },
+  "py118.3": {
+   "check": {
+    "answer": 150.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 1.2
+   },
+   "hints": [
+    "Relative lowering = (1.25 − 1.237)/1.25.",
+    "Dilute form with $w_1$ = 60 g benzene (78 g mol$^{-1}$)."
+   ]
+  },
+  "py118.3-or": {
+   "check": {
+    "answer": 57.5,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.6
+   },
+   "hints": [
+    "$\\Delta T_b$ = 354.11 − 353.23.",
+    "$M_2 = \\dfrac{1000K_bw_2}{\\Delta T_bw_1}$."
+   ]
+  },
+  "py119.3": {
+   "check": {
+    "answer": 0.013158,
+    "units": [],
+    "tol": 0.0006
+   },
+   "hints": [
+    "Relative lowering of vapour pressure = mole fraction of solute."
+   ]
+  },
+  "nc-in-1-6": {
+   "check": {
+    "answer": 282.18,
+    "units": [
+     "bar"
+    ],
+    "tol": 4
+   },
+   "hints": [
+    "0.195 m means 0.195 mol in 1 kg water (55.5 mol); find $x$.",
+    "At STP $p$ = 0.987 bar; $K_H = p/x$."
+   ]
+  },
+  "nc-in-1-7": {
+   "check": {
+    "answer": 1.8539,
+    "units": [
+     "g"
+    ],
+    "tol": 0.03
+   },
+   "hints": [
+    "Convert 2.5 atm to Pa (× 101 325), then $x = p/K_H$.",
+    "500 mL water ≈ 27.8 mol; $n \\approx x \\times 27.8$; mass = $n \\times 44$."
+   ]
+  },
+  "nc-in-1-8": {
+   "check": {
+    "answer": 0.6,
+    "units": [],
+    "tol": 0.004,
+    "prompt": "Enter $x_B$, the mole fraction of B in the liquid. Use 'Check a step' for the vapour.",
+    "steps": [
+     {
+      "label": "$y_A$, mole fraction of A in the vapour",
+      "unit": "",
+      "answer": 0.3,
+      "tol": 0.003,
+      "expr": "0.4*450/600"
+     }
+    ]
+   },
+   "hints": [
+    "$p_{\\text{total}} = p_A^\\circ + (p_B^\\circ - p_A^\\circ)x_B$; solve for $x_B$.",
+    "Vapour: $y_A = x_Ap_A^\\circ/p_{\\text{total}}$."
+   ]
+  },
+  "nc-in-1-9": {
+   "check": {
+    "answer": 23.387,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.03,
+    "prompt": "Enter the vapour pressure of the solution."
+   },
+   "hints": [
+    "Moles: urea 50/60, water 850/18.",
+    "$p = x_{\\text{water}} \\times 23.8$."
+   ]
+  },
+  "nc-in-1-10": {
+   "check": {
+    "answer": 121.67,
+    "units": [
+     "g"
+    ],
+    "tol": 0.6
+   },
+   "hints": [
+    "$\\Delta T_b$ = 100 − 99.63 = 0.37 K; $m = \\Delta T_b/K_b$.",
+    "500 g water = 0.5 kg; moles × 342."
+   ]
+  },
+  "nc-in-1-11": {
+   "check": {
+    "answer": 5.0769,
+    "units": [
+     "g"
+    ],
+    "tol": 0.03
+   },
+   "hints": [
+    "Molar mass of C$_6$H$_8$O$_6$ = 6(12) + 8(1) + 6(16).",
+    "$w_2 = \\dfrac{\\Delta T_f \\times M_2 \\times w_1}{1000 \\times K_f}$."
+   ]
+  },
+  "nc-in-1-12": {
+   "check": {
+    "answer": 30.959,
+    "units": [
+     "Pa"
+    ],
+    "tol": 0.2,
+    "mistakes": [
+     {
+      "answer": 0.03096,
+      "tol": 0.0003,
+      "msg": "Check the volume unit: with $R$ = 8.314 the volume must be in m$^3$ (450 mL = $4.5 \\times 10^{-4}$ m$^3$)."
+     }
+    ]
+   },
+   "hints": [
+    "Use SI units: $V$ = 450 mL = $4.5 \\times 10^{-4}$ m$^3$, $R$ = 8.314 J K$^{-1}$ mol$^{-1}$, $T$ = 310 K.",
+    "$\\pi = nRT/V$."
+   ]
+  },
+  "nc-ex-1-13": {
+   "check": {
+    "answer": 7.622,
+    "units": [
+     "bar"
+    ],
+    "tol": 0.03
+   },
+   "hints": [
+    "By Henry's law, mass of gas dissolved ∝ partial pressure.",
+    "$p_2 = 1 \\times (5.00 \\times 10^{-2})/(6.56 \\times 10^{-3})$."
+   ]
+  },
+  "nc-ex-1-15": {
+   "check": {
+    "answer": 41.347,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.5
+   },
+   "hints": [
+    "At the normal boiling point the pure solvent's $p^\\circ$ = 1.013 bar.",
+    "100 g solution: 2 g solute, 98 g water; use the dilute form."
+   ]
+  },
+  "nc-ex-1-16": {
+   "check": {
+    "answer": 73.579,
+    "units": [
+     "kPa"
+    ],
+    "tol": 0.15
+   },
+   "hints": [
+    "Moles: heptane (100 g mol$^{-1}$), octane (114 g mol$^{-1}$).",
+    "$p = x_{\\text{hept}}p^\\circ_{\\text{hept}} + x_{\\text{oct}}p^\\circ_{\\text{oct}}$."
+   ]
+  },
+  "nc-ex-1-17": {
+   "check": {
+    "answer": 12.083,
+    "units": [
+     "kPa"
+    ],
+    "tol": 0.02
+   },
+   "hints": [
+    "1 molal: 1 mol solute in 55.5 mol water.",
+    "$p = p^\\circ(1 - x_2)$."
+   ]
+  },
+  "nc-ex-1-18": {
+   "check": {
+    "answer": 10.0,
+    "units": [
+     "g"
+    ],
+    "tol": 0.1
+   },
+   "hints": [
+    "114 g octane is 1 mol; 80% vapour pressure means $x_{\\text{octane}}$ = 0.8.",
+    "Solve $1/(1 + n_2) = 0.8$."
+   ]
+  },
+  "nc-ex-1-19": {
+   "check": {
+    "answer": 23.0,
+    "units": [
+     "g mol-1",
+     "g/mol",
+     "g mol^-1"
+    ],
+    "tol": 0.3,
+    "prompt": "Enter (i), the molar mass. Use 'Check a step' for (ii).",
+    "steps": [
+     {
+      "label": "(ii) Vapour pressure of pure water",
+      "unit": "kPa",
+      "answer": 3.53,
+      "tol": 0.02,
+      "expr": "2.8*(5+3/2.3)/5"
+     }
+    ]
+   },
+   "hints": [
+    "Write $p = p^\\circ x_{\\text{water}}$ for both situations (5 mol and 6 mol of water).",
+    "Divide one equation by the other to cancel $p^\\circ$ and solve for $n$."
+   ]
+  },
+  "nc-ex-1-20": {
+   "check": {
+    "answer": 269.06,
+    "units": [
+     "K"
+    ],
+    "tol": 0.03,
+    "kind": "temperature",
+    "scale": "K",
+    "delta": 4.08
+   },
+   "hints": [
+    "Same solvent: $\\Delta T_f \\propto$ molality.",
+    "Ratio of molalities glucose/sugar = 342/180."
+   ]
+  },
+  "nc-ex-1-21": {
+   "check": {
+    "answer": 42.642,
+    "units": [
+     "u",
+     "g mol-1",
+     "g/mol",
+     "amu"
+    ],
+    "tol": 0.15,
+    "prompt": "Enter the atomic mass of B. Use 'Check a step' for A.",
+    "steps": [
+     {
+      "label": "Atomic mass of A",
+      "unit": "u",
+      "answer": 25.59,
+      "tol": 0.15,
+      "expr": "5100/46-(5100/26-5100/46)"
+     }
+    ]
+   },
+   "hints": [
+    "Find each molar mass from $M_2 = 1000K_fw_2/(\\Delta T_fw_1)$.",
+    "$a + 2b = M(AB_2)$ and $a + 4b = M(AB_4)$; subtract."
+   ]
+  },
+  "nc-ex-1-22": {
+   "check": {
+    "answer": 0.061044,
+    "units": [
+     "M",
+     "mol L-1",
+     "mol/L",
+     "mol dm-3",
+     "molar"
+    ],
+    "tol": 0.0008
+   },
+   "hints": [
+    "At constant $T$, $\\pi \\propto C$.",
+    "$C_1$ = 36/180 = 0.20 M."
+   ]
+  },
+  "nc-ex-1-32": {
+   "check": {
+    "answer": 0.64712,
+    "units": [
+     "K"
+    ],
+    "tol": 0.01
+   },
+   "hints": [
+    "Molality of the acid first; take $C \\approx m$.",
+    "Weak acid: $\\alpha \\approx \\sqrt{K_a/C}$, $i = 1 + \\alpha$, $\\Delta T_f = iK_fm$."
+   ]
+  },
+  "nc-ex-1-33": {
+   "check": {
+    "answer": 1.0753,
+    "units": [],
+    "tol": 0.003,
+    "prompt": "Enter the van't Hoff factor. Use 'Check a step' for $K_a$.",
+    "steps": [
+     {
+      "label": "$K_a$",
+      "unit": "",
+      "answer": 0.00307,
+      "tol": 6e-05,
+      "expr": "0.5*(1/0.93-1)**2/(2-1/0.93)"
+     }
+    ]
+   },
+   "hints": [
+    "Calculated $\\Delta T_f = K_fm$ with $m$ = (19.5/78)/0.5.",
+    "$i$ = observed/calculated; $\\alpha = i - 1$; $K_a = C\\alpha^2/(1 - \\alpha)$."
+   ]
+  },
+  "nc-ex-1-34": {
+   "check": {
+    "answer": 17.438,
+    "units": [
+     "mm Hg",
+     "mmHg",
+     "mm"
+    ],
+    "tol": 0.02
+   },
+   "hints": [
+    "Moles: glucose 25/180, water 450/18.",
+    "$p = x_{\\text{water}} \\times 17.535$."
+   ]
+  },
+  "nc-ex-1-35": {
+   "check": {
+    "answer": 0.0017799,
+    "units": [],
+    "tol": 1e-05
+   },
+   "hints": [
+    "$x = p/K_H$, both in mm Hg."
+   ]
+  },
+  "nc-ex-1-36": {
+   "check": {
+    "answer": 280.56,
+    "units": [
+     "torr",
+     "mm Hg",
+     "mmHg"
+    ],
+    "tol": 0.6,
+    "prompt": "Enter the vapour pressure of pure A."
+   },
+   "hints": [
+    "Mole fractions: $n_A$ = 100/140, $n_B$ = 1000/180.",
+    "475 = $x_Ap_A^\\circ + x_Bp_B^\\circ$; solve for $p_A^\\circ$."
+   ]
+  },
+  "nc-ex-1-38": {
+   "check": {
+    "answer": 0.5988,
+    "units": [],
+    "tol": 0.004
+   },
+   "hints": [
+    "Liquid mole fractions from the masses (benzene 78, toluene 92 g mol$^{-1}$).",
+    "$y_{\\text{benzene}} = p_{\\text{benzene}}/p_{\\text{total}}$."
+   ]
+  },
+  "nc-ex-1-39": {
+   "check": {
+    "answer": 4.6061e-05,
+    "units": [],
+    "tol": 5e-07,
+    "prompt": "Enter the mole fraction of O$_2$. Use 'Check a step' for N$_2$.",
+    "steps": [
+     {
+      "label": "Mole fraction of N$_2$",
+      "unit": "",
+      "answer": 9.22e-05,
+      "tol": 5e-07,
+      "expr": "6004/6.51e7"
+     }
+    ]
+   },
+   "hints": [
+    "10 atm = 7600 mm Hg; partial pressures from the volume percentages.",
+    "$x = p/K_H$ for each gas."
+   ]
+  },
+  "nc-ex-1-40": {
+   "check": {
+    "answer": 3.4211,
+    "units": [
+     "g"
+    ],
+    "tol": 0.03
+   },
+   "hints": [
+    "$\\pi = i\\dfrac{n}{V}RT$, so $n = \\dfrac{\\pi V}{iRT}$ with $T$ = 300 K.",
+    "Mass = $n \\times 111$."
+   ]
+  },
+  "nc-ex-1-41": {
+   "check": {
+    "answer": 0.0052728,
+    "units": [
+     "atm"
+    ],
+    "tol": 5e-05,
+    "mistakes": [
+     {
+      "answer": 0.001757,
+      "tol": 2e-05,
+      "msg": "You left out $i$ = 3."
+     }
+    ]
+   },
+   "hints": [
+    "K$_2$SO$_4$ (174 g mol$^{-1}$) gives 3 ions.",
+    "$\\pi = iCRT$ with $C$ = moles/2 L and $T$ = 298 K."
+   ]
+  }
+ }
+}

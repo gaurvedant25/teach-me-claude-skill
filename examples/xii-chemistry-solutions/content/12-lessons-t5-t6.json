@@ -1,0 +1,194 @@
+{
+  "topics": [
+    {
+      "id": "t5",
+      "title": "Ideal and non-ideal solutions, azeotropes",
+      "ncertRef": "1.5",
+      "minutes": 50,
+      "summary": "Which solutions obey Raoult's law, why real ones deviate, the signs of mixing enthalpy and volume, and constant-boiling azeotropes.",
+      "lessons": [
+        {
+          "id": "t5-1",
+          "title": "Ideal solutions",
+          "ncertRef": "1.5.1",
+          "minutes": 12,
+          "objective": "Define an ideal solution, state its two thermodynamic conditions, and explain them in terms of A-A, B-B and A-B attractions.",
+          "blocks": [
+            {"type": "h", "text": "Ideal solutions"},
+            {"type": "p", "text": "An **ideal solution** is one that ==obeys Raoult's law over the entire range of concentration==. It has two more properties:"},
+            {"type": "formula", "status": "ideal", "tex": "\Delta_{mix}H = 0, \qquad \Delta_{mix}V = 0", "where": "No heat is absorbed or released on mixing, and the volume of the solution equals the sum of the volumes of the components.",
+             "symbols": [["$\Delta_{mix}H$", "enthalpy change on mixing the pure components", "J mol$^{-1}$"], ["$\Delta_{mix}V$", "volume change on mixing", "mL or L"]],
+             "conditions": "These define an ideal solution; real solutions only come close."},
+            {"type": "p", "text": "**Molecular reason**: in pure A there are A-A attractions and in pure B there are B-B attractions; the solution also has A-B attractions. If ==A-B forces are nearly equal to A-A and B-B forces==, each molecule escapes as easily as it did in its pure liquid, and the solution is ideal. A perfectly ideal solution is rare. Nearly ideal: **n-hexane + n-heptane, bromoethane + chloroethane, benzene + toluene**."},
+            {"type": "callout", "kind": "why", "title": "Why no heat and no volume change?", "text": "If an A-B attraction is just as strong as the A-A and B-B attractions it replaces, no energy is gained or lost when the molecules swap partners, so $\Delta_{mix}H = 0$. The molecules also pack just as closely as before, so the volumes simply add: $\Delta_{mix}V = 0$."},
+            {"type": "worked", "title": "A 2-mark written answer: ideal vs non-ideal",
+             "problem": "Write two differences between an ideal and a non-ideal solution.",
+             "steps": [{"t": "Ideal: obeys Raoult's law over the entire range of concentration. Non-ideal: does not."}, {"t": "Ideal: $\Delta_{mix}H = 0$ and $\Delta_{mix}V = 0$. Non-ideal: $\Delta_{mix}H \ne 0$ and $\Delta_{mix}V \ne 0$."}, {"t": "(Extra point if asked for a third) Ideal: A-B attractions about equal to A-A and B-B. Non-ideal: A-B attractions weaker or stronger."}],
+             "answer": "Raoult's law obeyed or not; $\Delta_{mix}H$ and $\Delta_{mix}V$ zero or not zero."},
+            {"type": "try", "role": "independent", "questionIds": ["py81"]},
+            {"type": "try", "role": "check", "questionIds": ["t5-q3", "py16", "py35", "py30", "py29", "py42", "py48"]},
+            {"type": "recap", "items": ["Ideal: obeys Raoult's law at all concentrations, $\Delta_{mix}H = 0$, $\Delta_{mix}V = 0$.", "Cause: A-B attractions about equal to A-A and B-B.", "Nearly ideal pairs: n-hexane + n-heptane, bromoethane + chloroethane, benzene + toluene."], "next": "Lesson 5.2: when attractions are not equal - deviations from Raoult's law."}
+          ]
+        },
+        {
+          "id": "t5-2",
+          "title": "Positive and negative deviations from Raoult's law",
+          "ncertRef": "1.5.2",
+          "minutes": 20,
+          "objective": "Classify a mixture as showing positive or negative deviation, give the molecular reason, and predict the signs of $\Delta_{mix}H$ and $\Delta_{mix}V$ and the change in temperature or volume on mixing.",
+          "blocks": [
+            {"type": "h", "text": "Non-ideal solutions"},
+            {"type": "p", "text": "A **non-ideal solution** does not obey Raoult's law over the entire range of concentration. Its vapour pressure is higher (**positive deviation**) or lower (**negative deviation**) than Raoult's law predicts."},
+            {"type": "callout", "kind": "why", "title": "The one idea behind every deviation question", "text": "Compare the new A-B attraction with the old A-A and B-B attractions. **Weaker** A-B: molecules escape more easily → higher vapour pressure (positive), energy is absorbed on mixing, molecules spread out. **Stronger** A-B: molecules are held back → lower vapour pressure (negative), energy is released, molecules pack closer."},
+            {"type": "svg", "svg": "@file:figures/deviations.svg", "caption": "Vapour pressure against composition for (a) positive and (b) negative deviation (after NCERT Fig. 1.6). The dashed straight lines are what Raoult's law predicts.", "alt": "Two graphs showing vapour pressure curves above and below the ideal straight lines"},
+            {"type": "table", "caption": "Positive vs negative deviation - the full comparison examiners expect", "head": ["Feature", "Positive deviation", "Negative deviation"],
+             "rows": [
+               ["A-B attractions compared with A-A and B-B", "Weaker", "Stronger"],
+               ["Escaping tendency of molecules", "Increases", "Decreases"],
+               ["Vapour pressure vs Raoult's law", "Higher", "Lower"],
+               ["$\Delta_{mix}H$", "Positive (endothermic - solution cools)", "Negative (exothermic - solution warms)"],
+               ["$\Delta_{mix}V$", "Positive (volume increases)", "Negative (volume decreases)"],
+               ["Boiling point vs expected", "Lower", "Higher"],
+               ["Azeotrope formed (large deviation)", "Minimum boiling", "Maximum boiling"],
+               ["NCERT examples", "Ethanol + acetone; carbon disulphide + acetone", "Phenol + aniline; chloroform + acetone"]
+             ]},
+            {"type": "list", "title": "The reasons, pair by pair (write these in answers)", "items": [
+              "**Ethanol + acetone (positive)**: pure ethanol is hydrogen bonded. Acetone molecules get in between ethanol molecules and **break some of the hydrogen bonds**, weakening the interactions, so molecules escape more easily.",
+              "**Carbon disulphide + acetone (positive)**: the dipolar solute-solvent interactions are weaker than the interactions among like molecules.",
+              "**Phenol + aniline (negative)**: the intermolecular **hydrogen bond between the phenolic proton and the lone pair on the nitrogen of aniline** is stronger than the hydrogen bonds between like molecules.",
+              "**Chloroform + acetone (negative)**: the H of chloroform forms a **hydrogen bond with the carbonyl oxygen of acetone** ($\ce{Cl3C-H\bond{...}O=C(CH3)2}$), which did not exist in either pure liquid, so the escaping tendency drops."
+            ]},
+            {"type": "interactive", "widget": "vapour", "p1": 200, "p2": 415, "name1": "liquid 1", "name2": "liquid 2", "x0": 0.5, "mode0": 1},
+            {"type": "worked", "title": "Reading clues from a mixing experiment",
+             "problem": "10 mL of liquid P is mixed with 10 mL of liquid Q. The volume of the mixture is 19.6 mL and the mixture becomes warm. (a) What type of deviation from Raoult's law is shown? (b) Give the reason. (c) What type of azeotrope could such a pair form?",
+             "steps": [{"t": "Read the clues: volume decreased (19.6 < 20 mL), so $\Delta_{mix}V < 0$; the mixture warmed, so heat was released and $\Delta_{mix}H < 0$."}, {"t": "(a) Both clues point to **negative deviation**."}, {"t": "(b) The P-Q attractions are stronger than the P-P and Q-Q attractions, so molecules pack closer, energy is released, and the escaping tendency (vapour pressure) is lower than Raoult's law predicts."}, {"t": "(c) A large negative deviation gives a **maximum boiling azeotrope** (e.g. nitric acid + water)."}],
+             "answer": "Negative deviation; stronger P-Q attractions; maximum boiling azeotrope.",
+             "boardNote": "In a 2-3 mark deviation question, write the type, the attraction-based reason and the specific consequence asked."},
+            {"type": "callout", "kind": "exam", "text": "Volume and temperature clues tell you the deviation. 'Mixing 10 mL A + 10 mL B gave 20.2 mL' (2025) means positive deviation, the solution cools and an example is ethanol + acetone. 'Volume decreases on mixing' or 'temperature rises' (2025, 2023 compartment, 2025-26 SQP phenol + aniline) means negative deviation."},
+            {"type": "try", "role": "independent", "questionIds": ["py58", "t5-q4"]},
+            {"type": "try", "role": "apply", "questionIds": ["py96", "py65", "t5-q1", "t5-q2", "t5-q8", "py21", "py22", "py32"]},
+            {"type": "recap", "items": ["Weaker A-B → positive deviation, $\Delta_{mix}H > 0$, $\Delta_{mix}V > 0$, solution cools.", "Stronger A-B → negative deviation, $\Delta_{mix}H < 0$, $\Delta_{mix}V < 0$, solution warms.", "Learn the four NCERT pairs with their reasons."], "next": "Lesson 5.3: azeotropes."}
+          ]
+        },
+        {
+          "id": "t5-3",
+          "title": "Azeotropes",
+          "ncertRef": "1.5.2",
+          "minutes": 15,
+          "objective": "Define an azeotrope, link minimum and maximum boiling azeotropes to positive and negative deviation, and explain why fractional distillation cannot separate them.",
+          "blocks": [
+            {"type": "h", "text": "Azeotropes"},
+            {"type": "p", "text": "**Azeotropes** are ==binary mixtures having the same composition in liquid and vapour phase and boiling at a constant temperature==. Because the vapour has the same composition as the liquid, ==the components cannot be separated by fractional distillation==."},
+            {"type": "callout", "kind": "why", "title": "Why distillation gets stuck", "text": "Fractional distillation works because the vapour is richer in one component than the liquid (lesson 4.2). At the azeotropic composition the vapour and liquid have the same composition, so boiling and condensing again changes nothing."},
+            {"type": "compare",
+             "left": {"title": "Minimum boiling azeotrope", "items": ["Formed by solutions with **large positive deviation**", "Boils below both pure components", "Example: **ethanol-water** - fractional distillation of fermented sugar solution stops at about **95% ethanol by volume**"]},
+             "right": {"title": "Maximum boiling azeotrope", "items": ["Formed by solutions with **large negative deviation**", "Boils above both pure components", "Example: **nitric acid-water** - about **68% HNO$_3$ and 32% water by mass**, boiling point **393.5 K**"]}},
+            {"type": "callout", "kind": "mistake", "text": "Students often swap the two. Link them through vapour pressure: positive deviation raises vapour pressure, so the mixture reaches atmospheric pressure at a **lower** temperature - minimum boiling."},
+            {"type": "worked", "title": "A 3-mark written answer: ethanol and water",
+             "problem": "Why does fractional distillation of a fermented sugar solution never give pure ethanol?",
+             "steps": [{"t": "Ethanol and water show a large positive deviation from Raoult's law."}, {"t": "Such a solution forms a minimum boiling azeotrope at about 95% ethanol by volume."}, {"t": "At that composition the liquid and vapour have the same composition and the mixture boils at a constant temperature, so further distillation cannot separate the components."}],
+             "answer": "A minimum boiling azeotrope (about 95% ethanol by volume) forms; its vapour has the same composition as the liquid."},
+            {"type": "callout", "kind": "exam", "text": "MCQ pattern seen in 2023, 2024, 2025 and 2026: 'An azeotropic mixture boils at a temperature **higher** than either liquid when it shows ...' (negative deviation), or '**lower** than either' (positive deviation). 2024 asked which pair forms a maximum boiling azeotrope: chloroform and acetone."},
+            {"type": "try", "role": "independent", "questionIds": ["t5-q6"]},
+            {"type": "try", "role": "check", "questionIds": ["py03", "py04", "py06", "py28", "t5-q5", "t5-q7", "py49"]},
+            {"type": "try", "role": "apply", "questionIds": ["py63", "py64", "t5-q9"]},
+            {"type": "recap", "items": ["Azeotrope: same composition in liquid and vapour; constant boiling point; not separable by fractional distillation.", "Large positive deviation → minimum boiling (ethanol-water, ~95% ethanol by volume).", "Large negative deviation → maximum boiling (HNO$_3$-water, ~68% HNO$_3$ by mass, 393.5 K)."], "next": "Topic 6: colligative properties, starting with relative lowering of vapour pressure."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "title": "Colligative properties and relative lowering of vapour pressure",
+      "ncertRef": "1.6, 1.6.1",
+      "minutes": 40,
+      "summary": "What makes a property colligative, and how lowering of vapour pressure gives the mole fraction and molar mass of a solute.",
+      "lessons": [
+        {
+          "id": "t6-1",
+          "title": "Colligative properties and relative lowering of vapour pressure",
+          "ncertRef": "1.6, 1.6.1",
+          "minutes": 18,
+          "objective": "Name the four colligative properties, derive 'relative lowering of vapour pressure = mole fraction of solute', and use it to find a vapour pressure.",
+          "blocks": [
+            {"type": "p", "text": "Several properties of a solution follow from the lowering of vapour pressure caused by a non-volatile solute. They ==depend on the number of solute particles, irrespective of their nature, relative to the total number of particles present in the solution==. They are called **colligative properties** (Latin *co* = together, *ligare* = to bind)."},
+            {"type": "list", "ordered": true, "title": "The four colligative properties", "items": ["Relative lowering of vapour pressure of the solvent", "Elevation of boiling point of the solvent", "Depression of freezing point of the solvent", "Osmotic pressure of the solution"]},
+            {"type": "callout", "kind": "why", "title": "Why only the number matters", "text": "In a dilute solution the solute particles simply take the place of some solvent particles. A urea molecule and a glucose molecule each block one 'place', so the effect depends on how many there are, not on what they are."},
+            {"type": "h", "text": "Relative lowering of vapour pressure"},
+            {"type": "p", "text": "With solvent 1 and non-volatile solute 2, Raoult's law gives $p_1 = x_1 p_1^\circ$. The lowering is $\Delta p_1 = p_1^\circ - p_1 = p_1^\circ(1 - x_1) = x_2 p_1^\circ$. Divide by $p_1^\circ$:"},
+            {"type": "formula", "label": "Relative lowering of vapour pressure = mole fraction of solute", "status": "ideal", "tex": "\frac{p_1^\circ - p_1}{p_1^\circ} = x_2 = \frac{n_2}{n_1 + n_2}", "where": "With several non-volatile solutes, $x_2$ becomes the sum of their mole fractions.",
+             "symbols": [["$p_1^\circ$", "vapour pressure of the pure solvent", "any pressure unit"], ["$p_1$", "vapour pressure of the solution (= of the solvent in it)", "same unit"], ["$x_2$", "mole fraction of solute", "no unit"], ["$n_1$, $n_2$", "moles of solvent and solute", "mol"]],
+             "conditions": "Follows directly from Raoult's law, so it holds as far as the solution behaves ideally. No dilute approximation is made in this form."},
+            {"type": "worked", "title": "Vapour pressure of a glucose solution",
+             "problem": "18 g of glucose ($\ce{C6H12O6}$) is dissolved in 178.2 g of water at 373.15 K, where pure water's vapour pressure is 760 mm Hg. Find the vapour pressure of the solution.",
+             "given": ["Glucose 18 g (180 g mol$^{-1}$)", "Water 178.2 g (18 g mol$^{-1}$)", "$p_1^\circ$ = 760 mm Hg"],
+             "find": "$p_1$, the vapour pressure of the solution.",
+             "relation": "$\dfrac{p_1^\circ - p_1}{p_1^\circ} = x_2$",
+             "why": "Glucose is non-volatile, so the lowering of vapour pressure is set by its mole fraction.",
+             "convert": [{"t": "$n_2$ = 18/180 = 0.10 mol; $n_1$ = 178.2/18 = 9.90 mol"}, {"t": "$x_2 = 0.10/(0.10 + 9.90) = 0.010$"}],
+             "calc": [{"t": "$p_1^\circ - p_1 = 0.010 \times 760 = 7.6$ mm Hg", "why": "Multiply both sides by $p_1^\circ$ to get the lowering itself."}, {"t": "$p_1 = 760 - 7.6 = 752.4$ mm Hg"}],
+             "check": "A 1% mole fraction of solute lowers the vapour pressure by 1%: 7.6 is 1% of 760.",
+             "answer": "752.4 mm Hg",
+             "board": [{"t": "$n_2$ = 0.1 mol, $n_1$ = 9.9 mol, $x_2$ = 0.01"}, {"t": "$(760 - p_1)/760 = 0.01$"}, {"t": "$p_1$ = 752.4 mm Hg"}],
+             "verify": {"expr": "760*(1-0.1/10.0)", "expected": 752.4}},
+            {"type": "try", "role": "partial", "questionIds": ["t6-1-p"]},
+            {"type": "try", "role": "independent", "questionIds": ["t6-q2", "nc-in-1-9"]},
+            {"type": "try", "role": "apply", "questionIds": ["t6-q1", "t6-q3", "t6-q4", "py27", "py14", "t6-q6"]},
+            {"type": "recap", "items": ["Colligative = depends on the number of solute particles, not their nature.", "Relative lowering of vapour pressure = $x_2$ (exact for an ideal solution).", "Find $p_1$ by multiplying out: $p_1 = p_1^\circ(1 - x_2)$."], "next": "Lesson 6.2: finding a molar mass from vapour pressure, and when the dilute shortcut is safe."}
+          ]
+        },
+        {
+          "id": "t6-2",
+          "title": "Molar mass from vapour-pressure lowering; exact form vs dilute shortcut",
+          "ncertRef": "1.6.1",
+          "minutes": 20,
+          "objective": "Find the molar mass of a solute from vapour-pressure data, and decide when the dilute shortcut $n_2/n_1$ is acceptable and when the exact $n_2/(n_1 + n_2)$ is needed.",
+          "blocks": [
+            {"type": "formula", "label": "Dilute solutions ($n_2 \ll n_1$)", "status": "dilute", "tex": "\frac{p_1^\circ - p_1}{p_1^\circ} = \frac{n_2}{n_1} = \frac{w_2 \times M_1}{M_2 \times w_1}", "where": "$w_1, M_1$: mass and molar mass of solvent; $w_2, M_2$: of solute. Rearranged, this gives the molar mass $M_2$.",
+             "symbols": [["$w_1$, $w_2$", "masses of solvent and solute", "g"], ["$M_1$, $M_2$", "molar masses of solvent and solute", "g mol$^{-1}$"]],
+             "conditions": "Approximation: $n_1 + n_2$ is replaced by $n_1$, which is fine only when $n_2$ is much smaller than $n_1$."},
+            {"type": "callout", "kind": "notation", "text": "Here $M_1$ and $M_2$ are **molar masses** (g mol$^{-1}$), not molarity. Subscript 1 is always the solvent and 2 the solute."},
+            {"type": "worked", "title": "Molar mass from vapour pressure", "source": "NCERT Example 1.6",
+             "problem": "Pure benzene has a vapour pressure of 0.850 bar. Adding 0.5 g of a non-volatile non-electrolyte to 39.0 g of benzene (78 g mol$^{-1}$) lowers it to 0.845 bar. Find the molar mass of the solid.",
+             "given": ["$p_1^\circ$ = 0.850 bar, $p_1$ = 0.845 bar", "$w_2$ = 0.5 g (solute), $w_1$ = 39.0 g benzene, $M_1$ = 78 g mol$^{-1}$"],
+             "find": "$M_2$.",
+             "relation": "$\dfrac{p_1^\circ - p_1}{p_1^\circ} = \dfrac{w_2 M_1}{M_2 w_1}$ (dilute form)",
+             "why": "The lowering (0.005 bar out of 0.850) is under 1%, so the solution is dilute and the shortcut is safe. It also puts $M_2$ directly into the equation.",
+             "calc": [{"t": "Relative lowering = $\dfrac{0.850 - 0.845}{0.850} = \dfrac{0.005}{0.850}$"}, {"t": "$M_2 = \dfrac{w_2 \times M_1 \times p_1^\circ}{(p_1^\circ - p_1) \times w_1} = \dfrac{0.5 \times 78 \times 0.850}{0.005 \times 39} = 170$ g mol$^{-1}$", "why": "Rearranging: multiply both sides by $M_2$, then divide by the relative lowering."}],
+             "check": "Units: g × g mol$^{-1}$ ÷ g = g mol$^{-1}$. A molar mass of 170 is reasonable for an organic solid.",
+             "answer": "170 g mol$^{-1}$",
+             "board": [{"t": "$\dfrac{0.850 - 0.845}{0.850} = \dfrac{0.5 \times 78}{M_2 \times 39}$"}, {"t": "$M_2 = \dfrac{0.5 \times 78 \times 0.850}{0.005 \times 39} = 170$ g mol$^{-1}$"}],
+             "verify": {"expr": "0.5*78*0.850/(0.005*39)", "expected": 170}},
+            {"type": "callout", "kind": "tip", "text": "Board papers use numbers like 31.84 and 32 mm Hg so that $\dfrac{0.16}{32} = 0.005$ cancels cleanly. If the question says 'reduced to 90%' or 'reduced by 50%', use the exact form $x_2 = n_2/(n_1+n_2)$ - the dilute approximation is poor for large lowering. Both the 2026-27 SQP (Q28) and 2023 papers accept the exact method."},
+            {"type": "details", "title": "How big is the error of the shortcut?", "blocks": [
+              {"type": "p", "text": "The shortcut replaces $n_2/(n_1+n_2)$ by $n_2/n_1$. The two differ by the factor $(n_1+n_2)/n_1$. For a 0.6% lowering (NCERT Example 1.6) that factor is 1.006 - a 0.6% error, invisible at board precision. For a 50% lowering the factor is 2, and the shortcut gives a molar mass **twice** too large."},
+              {"type": "p", "text": "Rule of thumb: if the lowering is a few per cent or less, either form is fine; if it is large, or the question says 'reduced to 80%' and similar, use the exact form."}
+            ]},
+            {"type": "try", "role": "partial", "questionIds": ["t6-2-p"]},
+            {"type": "try", "role": "independent", "questionIds": ["py59", "t6-q5"]},
+            {"type": "try", "role": "apply", "questionIds": ["py130", "nc-ex-1-19", "t6-q7", "py98"]},
+            {"type": "recap", "items": ["Dilute shortcut: $\Delta p/p^\circ = w_2M_1/(M_2w_1)$.", "Use the exact $x_2 = n_2/(n_1+n_2)$ when the lowering is large.", "$M_1$, $M_2$ are molar masses; 1 = solvent, 2 = solute."], "next": "Topic 7: elevation of boiling point and depression of freezing point."}
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id": "t6-1-p", "type": "numerical", "topic": "t6", "concept": "rlvp", "marks": 2, "difficulty": "easy",
+     "q": "6.0 g of urea (60 g mol$^{-1}$) is dissolved in 90 g of water. Find the relative lowering of vapour pressure of the water.",
+     "scaffold": [{"t": "$n_{\text{urea}}$ = 6.0/60 = 0.10 mol"}, {"t": "$n_{\text{water}}$ = 90/18 = 5.0 mol"}],
+     "check": {"answer": 0.01961, "units": [], "tol": 0.0004, "tolReason": "0.020 is accepted: the exact value 0.0196 rounds to it at two significant figures.", "note": "The dilute shortcut 0.10/5.0 = 0.020 agrees to two significant figures here, because the solution is dilute.",
+       "mistakes": [{"answer": 0.0667, "tol": 0.0005, "msg": "6/90 is a mass ratio. Relative lowering equals the **mole** fraction of solute."}]},
+     "hints": ["Relative lowering of vapour pressure equals which quantity?", "$x_2 = n_2/(n_1 + n_2)$."],
+     "solution": {"steps": [{"t": "$x_2 = 0.10/(0.10 + 5.0) = 0.0196$"}], "final": "0.0196"},
+     "verify": {"expr": "0.1/5.1", "expected": 0.01961}},
+    {"id": "t6-2-p", "type": "numerical", "topic": "t6", "concept": "rlvp-molar-mass", "marks": 3, "difficulty": "medium",
+     "q": "2.0 g of a non-volatile solute dissolved in 100 g of benzene (78 g mol$^{-1}$) lowers its vapour pressure from 640 mm Hg to 632 mm Hg. Find the molar mass of the solute.",
+     "scaffold": [{"t": "Relative lowering = (640 − 632)/640 = 8/640 = 0.0125"}, {"t": "Dilute form: $0.0125 = \dfrac{2.0 \times 78}{M_2 \times 100}$"}],
+     "check": {"answer": 124.8, "units": ["g mol-1", "g/mol", "g mol^-1"], "tol": 0.6,
+       "mistakes": [{"answer": 0.0125, "tol": 0.0001, "msg": "That is the relative lowering. Rearrange for $M_2$."}, {"answer": 1.95, "tol": 0.03, "msg": "You divided by the lowering in mm Hg (8) instead of the relative lowering (8/640). Relative lowering has no unit."}]},
+     "hints": ["Rearrange: $M_2 = \dfrac{w_2 M_1}{w_1 \times \text{relative lowering}}$."],
+     "solution": {"steps": [{"t": "$M_2 = \dfrac{2.0 \times 78}{100 \times 0.0125} = 124.8$ g mol$^{-1}$"}], "final": "≈ 125 g mol$^{-1}$"},
+     "verify": {"expr": "2.0*78/(100*0.0125)", "expected": 124.8}}
+  ]
+}

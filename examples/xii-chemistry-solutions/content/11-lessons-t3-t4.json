@@ -1,0 +1,254 @@
+{
+  "topics": [
+    {
+      "id": "t3",
+      "title": "Solubility and Henry's law",
+      "ncertRef": "1.3",
+      "minutes": 45,
+      "summary": "Why some solids dissolve and others don't, how temperature and pressure change solubility, and Henry's law for gases with its everyday applications.",
+      "lessons": [
+        {
+          "id": "t3-1",
+          "title": "Solubility of a solid in a liquid",
+          "ncertRef": "1.3.1",
+          "minutes": 12,
+          "objective": "Define solubility and a saturated solution, predict solubility with 'like dissolves like', and use Le Chatelier's principle to predict the effect of temperature.",
+          "blocks": [
+            {"type": "p", "text": "**Solubility** of a substance is the ==maximum amount that can be dissolved in a specified amount of solvent at a specified temperature==. It depends on the nature of solute and solvent, temperature and pressure."},
+            {"type": "h", "text": "Solid in a liquid"},
+            {"type": "p", "text": "**Like dissolves like**: polar solutes dissolve in polar solvents and non-polar solutes in non-polar solvents. NaCl and sugar dissolve in water but not in benzene; naphthalene and anthracene dissolve in benzene but not in water. A solute dissolves when its intermolecular interactions are similar to the solvent's."},
+            {"type": "callout", "kind": "why", "title": "At the level of particles", "text": "To dissolve, solute particles must separate from each other and fit between solvent particles. Water's strong dipoles can surround Na$^+$ and Cl$^-$ ions and make up for the energy needed to pull the crystal apart. Benzene's molecules are non-polar and cannot attract ions strongly, so NaCl stays undissolved in benzene."},
+            {"type": "p", "text": "As solid dissolves (**dissolution**), some dissolved particles collide with the solid and separate out again (**crystallisation**). When the two rates become equal, a **dynamic equilibrium** is reached:"},
+            {"type": "formula", "tex": "\text{Solute} + \text{Solvent} \rightleftharpoons \text{Solution}", "status": "exact", "conditions": "This is an equilibrium, so Le Chatelier's principle predicts how temperature shifts it."},
+            {"type": "list", "items": [
+              "**Saturated solution**: no more solute dissolves at that temperature and pressure; it is in dynamic equilibrium with undissolved solute. Its concentration is the solubility.",
+              "**Unsaturated solution**: more solute can still dissolve at the same temperature.",
+              "**Effect of temperature** (Le Chatelier's principle on the equilibrium above): if dissolution is endothermic ($\Delta_{sol}H > 0$) solubility rises with temperature; if exothermic ($\Delta_{sol}H < 0$) it falls.",
+              "**Effect of pressure**: none worth mentioning, because solids and liquids are almost incompressible."
+            ]},
+            {"type": "worked", "title": "Writing a 'like dissolves like' answer",
+             "problem": "Predict whether (a) NaCl and (b) naphthalene will dissolve in benzene. Give reasons.",
+             "steps": [{"t": "Identify the type of each substance: NaCl is ionic (strongly polar); naphthalene is a non-polar hydrocarbon; benzene is a non-polar solvent."}, {"t": "Compare interactions: dissolving needs solute-solvent attractions similar to the solute-solute and solvent-solvent ones."}, {"t": "(a) Benzene cannot attract ions strongly enough, so NaCl does not dissolve. (b) Naphthalene and benzene have similar (weak, non-polar) interactions, so naphthalene dissolves."}],
+             "answer": "NaCl: insoluble in benzene. Naphthalene: soluble in benzene. Like dissolves like."},
+            {"type": "try", "role": "independent", "questionIds": ["t3-q5"]},
+            {"type": "try", "role": "apply", "questionIds": ["nc-ex-1-24", "nc-ex-1-25"]},
+            {"type": "recap", "items": ["Solubility = maximum amount dissolved at a given temperature (and pressure).", "Like dissolves like: similar intermolecular forces.", "Endothermic dissolution: solubility rises with temperature; exothermic: it falls. Pressure has almost no effect on solids."], "next": "Lesson 3.2: gases in liquids and Henry's law."}
+          ]
+        },
+        {
+          "id": "t3-2",
+          "title": "Henry's law",
+          "ncertRef": "1.3.2",
+          "minutes": 18,
+          "objective": "State Henry's law in both forms, explain what a large or small $K_H$ means, and use $p = K_Hx$ to find the mole fraction or amount of a dissolved gas.",
+          "blocks": [
+            {"type": "h", "text": "Gas in a liquid - Henry's law"},
+            {"type": "p", "text": "Gas solubility rises with pressure. Picture a gas in equilibrium with its solution. Compress the gas: more gas particles per unit volume strike the liquid surface each second, so more dissolve until a new equilibrium is reached at higher solubility."},
+            {"type": "svg", "svg": "@file:figures/gas_pressure.svg", "caption": "Schematic after NCERT Fig. 1.1: compressing the gas above a solution crowds the gas particles, so more of them strike the surface and dissolve until a new dynamic equilibrium is reached. Not to scale.", "alt": "Two cylinders: gas above a solution, then the piston pushed down with more gas dissolved"},
+            {"type": "callout", "kind": "remember", "title": "Henry's law - learn both statements", "text": "(1) At a constant temperature, the ==solubility of a gas in a liquid is directly proportional to the partial pressure of the gas== present above the surface of the liquid or solution. (2) The most used form: the ==partial pressure of the gas in the vapour phase ($p$) is proportional to the mole fraction of the gas ($x$) in the solution==: $p = K_H\,x$."},
+            {"type": "formula", "label": "Henry's law", "status": "empirical", "tex": "p = K_H\,x",
+             "symbols": [["$p$", "partial pressure of the gas above the solution", "bar, kbar, Pa or mm Hg"], ["$K_H$", "Henry's law constant (depends on the gas, the solvent and the temperature)", "same pressure unit as $p$"], ["$x$", "mole fraction of the gas in the solution", "no unit"]],
+             "conditions": "Constant temperature. It is an experimental law that works best for dilute solutions of gases that do not react with the solvent. $p$ and $K_H$ must be in the **same** pressure unit."},
+            {"type": "svg", "svg": "@file:figures/henry.svg", "caption": "Henry's law: at constant temperature $p$ against $x$ is a straight line through the origin with slope $K_H$ (NCERT Fig. 1.2 shows HCl in cyclohexane at 293 K).", "alt": "Straight line graph of partial pressure against mole fraction of gas"},
+            {"type": "list", "title": "What $K_H$ tells you", "items": [
+              "$K_H$ depends on the **nature of the gas** (and the solvent) and on **temperature**.",
+              "From $x = p/K_H$: at a given pressure, ==the higher the $K_H$, the lower the solubility==.",
+              "$K_H$ **increases with temperature** (N$_2$: 76.48 kbar at 293 K, 88.84 kbar at 303 K; O$_2$: 34.86 to 46.82 kbar) - so gases are less soluble in warmer water.",
+              "CO$_2$ ($K_H$ = 1.67 kbar at 298 K) is far more soluble than He (144.97 kbar at 293 K)."
+            ]},
+            {"type": "table", "caption": "Selected values from NCERT Table 1.2 (gases in water)", "head": ["Gas", "T / K", "$K_H$ / kbar"],
+             "rows": [["He", "293", "144.97"], ["H$_2$", "293", "69.16"], ["N$_2$", "293", "76.48"], ["N$_2$", "303", "88.84"], ["O$_2$", "293", "34.86"], ["O$_2$", "303", "46.82"], ["Argon", "298", "40.3"], ["CO$_2$", "298", "1.67"], ["Methane", "298", "0.413"], ["Vinyl chloride", "298", "0.611"], ["Formaldehyde", "298", "1.83 × 10$^{-5}$"]]},
+            {"type": "worked", "title": "Moles of nitrogen dissolved", "source": "NCERT Example 1.4",
+             "problem": "N$_2$ at a partial pressure of 0.987 bar is bubbled through 1 L of water at 293 K. $K_H$(N$_2$, 293 K) = 76.48 kbar. How many millimoles of N$_2$ dissolve?",
+             "given": ["$p$(N$_2$) = 0.987 bar", "$K_H$ = 76.48 kbar", "1 L of water"],
+             "find": "Amount of dissolved N$_2$, in mmol.",
+             "relation": "$p = K_Hx$, so $x = p/K_H$; then $x \approx n_{\text{N}_2}/n_{\text{water}}$.",
+             "why": "Henry's law gives the mole fraction; we then need the moles of water to turn a fraction into an amount.",
+             "convert": [
+               {"t": "$K_H$ = 76.48 kbar = 76 480 bar", "why": "$p$ is in bar, so $K_H$ must be in bar too, or the units will not cancel."},
+               {"t": "1 L of water ≈ 1000 g; $n_{\text{water}}$ = 1000/18 = 55.5 mol", "why": "Water's density is about 1 g mL$^{-1}$."}
+             ],
+             "calc": [
+               {"t": "$x = \dfrac{0.987\ \text{bar}}{76\,480\ \text{bar}} = 1.29 \times 10^{-5}$"},
+               {"t": "$x = \dfrac{n}{n + 55.5} \approx \dfrac{n}{55.5}$, so $n = 1.29 \times 10^{-5} \times 55.5 = 7.16 \times 10^{-4}$ mol = 0.716 mmol", "why": "**Why drop $n$ from the denominator?** $n$ is about $10^{-3}$ mol, tiny next to 55.5 mol, so adding it changes nothing at this precision. This is a dilute-solution approximation."}
+             ],
+             "check": "A gas with a large $K_H$ is poorly soluble, so a fraction of a millimole per litre is sensible.",
+             "answer": "0.716 mmol",
+             "board": [{"t": "$x = p/K_H = 0.987/76480 = 1.29 \times 10^{-5}$"}, {"t": "$n_{\text{water}}$ = 1000/18 = 55.5 mol; $x \approx n/55.5$"}, {"t": "$n = 1.29 \times 10^{-5} \times 55.5 = 7.16 \times 10^{-4}$ mol = 0.716 mmol"}],
+             "verify": {"expr": "0.987/76480*55.5*1000", "expected": 0.716}},
+            {"type": "try", "role": "partial", "questionIds": ["t3-2-p"]},
+            {"type": "try", "role": "independent", "questionIds": ["t3-q3", "py77"]},
+            {"type": "try", "role": "apply", "questionIds": ["t3-q1", "t3-q6", "nc-in-1-7", "t3-q7"]},
+            {"type": "recap", "items": ["Henry's law: $p = K_Hx$ at constant temperature.", "Larger $K_H$ → less soluble gas.", "Put $p$ and $K_H$ in the same unit; for dilute solutions $x \approx n_{\text{gas}}/n_{\text{solvent}}$."], "next": "Lesson 3.3: temperature, and Henry's law in daily life."}
+          ]
+        },
+        {
+          "id": "t3-3",
+          "title": "Gas solubility and temperature; applications of Henry's law",
+          "ncertRef": "1.3.2",
+          "minutes": 12,
+          "objective": "Explain why gases are less soluble in warm water, and explain soda water, the bends and anoxia using Henry's law.",
+          "blocks": [
+            {"type": "h", "text": "Effect of temperature on gas solubility"},
+            {"type": "p", "text": "Dissolving a gas is like condensing it, so ==heat is released (exothermic)==. By Le Chatelier's principle, raising the temperature shifts the equilibrium back towards free gas: **solubility of gases decreases as temperature rises**. That is why aquatic species are more comfortable in cold water - it holds more dissolved oxygen."},
+            {"type": "callout", "kind": "why", "title": "Linking the two explanations", "text": "In Henry's-law terms: $K_H$ rises with temperature, and $x = p/K_H$, so at the same partial pressure the mole fraction of dissolved gas falls."},
+            {"type": "h", "text": "Applications of Henry's law (asked almost every year)"},
+            {"type": "list", "items": [
+              "**Soft drinks and soda water** are sealed under high pressure to increase the solubility of CO$_2$.",
+              "**Bends (scuba divers)**: at depth, air is breathed at high pressure, so more N$_2$ dissolves in blood. On rising, pressure falls, the gas comes out as **bubbles of nitrogen in the blood** that block capillaries - painful and dangerous. Divers' tanks therefore use air diluted with helium (about 11.7% He, 56.2% N$_2$, 32.1% O$_2$).",
+              "**Anoxia (high altitude)**: the partial pressure of O$_2$ is lower, so less O$_2$ dissolves in blood and tissues. Climbers become weak and cannot think clearly."
+            ]},
+            {"type": "worked", "title": "A 2-mark written answer: the bends",
+             "problem": "Explain the bends in scuba divers using Henry's law.",
+             "steps": [{"t": "State the link: by Henry's law, the solubility of a gas in a liquid is proportional to its partial pressure."}, {"t": "Under water the pressure is high, so more N$_2$ from the breathing air dissolves in the blood."}, {"t": "When the diver comes up, the pressure falls, the solubility drops, and N$_2$ comes out of the blood as bubbles that block capillaries - the bends. Tanks therefore use air diluted with helium."}],
+             "answer": "High pressure → more N$_2$ dissolves; rapid fall in pressure → N$_2$ bubbles in blood → bends.",
+             "boardNote": "Name the law, give the cause-and-effect chain, and finish with the consequence. That is the structure most marking schemes for this question follow."},
+            {"type": "callout", "kind": "exam", "text": "Past papers: 'State Henry's law and write two applications' (2019, 2024 compartment), 'Explain bends and anoxia with Henry's law' (2026), 'Why are aquatic species more comfortable in cold water?' (2019, 2023, 2024, 2025), 'CO$_2$ is more soluble than O$_2$ - which has the higher $K_H$?' (2024: O$_2$), and 'Calculate the mole fraction of CO$_2$ at 760 mm Hg, $K_H$ = 1.25 × 10$^6$ mm Hg' (2020, 2026)."},
+            {"type": "try", "role": "independent", "questionIds": ["py53"]},
+            {"type": "try", "role": "apply", "questionIds": ["t3-q8", "t3-q2", "t3-q4", "py67"]},
+            {"type": "recap", "items": ["Dissolving a gas is exothermic, so gas solubility falls as temperature rises ($K_H$ rises).", "Soda water: high pressure keeps CO$_2$ dissolved.", "Bends: N$_2$ bubbles when pressure falls quickly. Anoxia: low O$_2$ partial pressure at altitude."], "next": "Topic 4: vapour pressure and Raoult's law."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "title": "Vapour pressure and Raoult's law",
+      "ncertRef": "1.4",
+      "minutes": 50,
+      "summary": "Raoult's law for two volatile liquids, the composition of the vapour, Raoult's law as a special case of Henry's law, and why a non-volatile solute lowers vapour pressure.",
+      "lessons": [
+        {
+          "id": "t4-1",
+          "title": "Raoult's law for two volatile liquids",
+          "ncertRef": "1.4.1",
+          "minutes": 18,
+          "objective": "State Raoult's law for volatile components, calculate partial and total vapour pressures, and read the straight-line graph.",
+          "blocks": [
+            {"type": "p", "text": "In a closed vessel, a liquid evaporates until the rate of evaporation equals the rate of condensation. The pressure exerted by the vapour at that equilibrium is the **vapour pressure**. It depends only on the liquid and the temperature."},
+            {"type": "h", "text": "Solutions of two volatile liquids"},
+            {"type": "callout", "kind": "remember", "title": "Raoult's law (volatile components)", "text": "For a solution of volatile liquids, the ==partial vapour pressure of each component of the solution is directly proportional to its mole fraction== present in the solution: $p_1 = x_1 p_1^\circ$ and $p_2 = x_2 p_2^\circ$, where $p_1^\circ$, $p_2^\circ$ are the vapour pressures of the pure components at the same temperature."},
+            {"type": "callout", "kind": "why", "title": "At the level of particles", "text": "Only molecules at the surface can escape. If a component makes up a fraction $x_1$ of the molecules, roughly that fraction of the surface belongs to it, so its rate of escape - and its partial pressure - falls to $x_1$ times the pure value. This picture assumes the molecules attract each other equally, which is what 'ideal' means (lesson 5.1)."},
+            {"type": "p", "text": "By Dalton's law of partial pressures, the total vapour pressure is the sum:"},
+            {"type": "formula", "label": "Total vapour pressure", "status": "ideal", "tex": "p_{\text{total}} = p_1 + p_2 = x_1p_1^\circ + x_2p_2^\circ = p_1^\circ + (p_2^\circ - p_1^\circ)\,x_2", "where": "(using $x_1 = 1 - x_2$)",
+             "symbols": [["$p_1$, $p_2$", "partial vapour pressures in the vapour above the solution", "any pressure unit"], ["$p_1^\circ$, $p_2^\circ$", "vapour pressures of the pure liquids at the same temperature", "same unit"], ["$x_1$, $x_2$", "mole fractions in the **liquid**", "no unit"]],
+             "conditions": "Exact for an ideal solution; real (non-ideal) solutions deviate (lesson 5.1). Dalton's law of partial pressures itself is used as exact here."},
+            {"type": "list", "title": "Three conclusions (NCERT)", "ordered": true, "items": [
+              "The total vapour pressure can be written in terms of the mole fraction of either component.",
+              "The total vapour pressure varies **linearly** with the mole fraction of component 2.",
+              "Depending on which pure liquid is more volatile, $p_{\text{total}}$ rises or falls as the mole fraction of component 1 rises. It always lies between $p_1^\circ$ and $p_2^\circ$."
+            ]},
+            {"type": "svg", "svg": "@file:figures/raoult_ideal.svg", "caption": "Vapour pressure against composition for an ideal solution (NCERT Fig. 1.3). Lines I and II are the partial pressures; line III is the total. Here component 1 is less volatile ($p_1^\circ < p_2^\circ$).", "alt": "Straight lines of partial and total vapour pressure against mole fraction"},
+            {"type": "interactive", "widget": "vapour", "p1": 200, "p2": 415, "name1": "CHCl₃", "name2": "CH₂Cl₂", "x0": 0.688},
+            {"type": "worked", "title": "Total vapour pressure of a benzene-toluene mixture",
+             "problem": "Benzene ($p^\circ$ = 75 mm Hg) and toluene ($p^\circ$ = 22 mm Hg) form a nearly ideal solution. Find the partial and total vapour pressures when the mole fraction of benzene in the liquid is 0.40.",
+             "given": ["$p_{\text{B}}^\circ$ = 75 mm Hg, $p_{\text{T}}^\circ$ = 22 mm Hg", "$x_{\text{B}}$ = 0.40 (liquid)"],
+             "find": "$p_{\text{B}}$, $p_{\text{T}}$ and $p_{\text{total}}$.",
+             "relation": "Raoult's law $p_i = x_ip_i^\circ$ for each component; Dalton's law $p_{\text{total}} = p_{\text{B}} + p_{\text{T}}$.",
+             "why": "Each volatile component contributes its own partial pressure, set by its mole fraction in the liquid.",
+             "convert": [{"t": "$x_{\text{T}} = 1 - 0.40 = 0.60$", "why": "In a two-component liquid the mole fractions add to 1."}],
+             "calc": [{"t": "$p_{\text{B}} = 0.40 \times 75 = 30$ mm Hg;  $p_{\text{T}} = 0.60 \times 22 = 13.2$ mm Hg"}, {"t": "$p_{\text{total}} = 30 + 13.2 = 43.2$ mm Hg"}],
+             "check": "43.2 lies between 22 and 75, as it must for an ideal mixture.",
+             "answer": "$p_{\text{B}}$ = 30 mm Hg, $p_{\text{T}}$ = 13.2 mm Hg, $p_{\text{total}}$ = 43.2 mm Hg",
+             "board": [{"t": "$p_{\text{B}} = x_{\text{B}}p_{\text{B}}^\circ = 0.40 \times 75 = 30$ mm Hg"}, {"t": "$p_{\text{T}} = 0.60 \times 22 = 13.2$ mm Hg"}, {"t": "$p_{\text{total}} = 43.2$ mm Hg"}],
+             "verify": [{"expr": "0.4*75+0.6*22", "expected": 43.2}]},
+            {"type": "try", "role": "partial", "questionIds": ["t4-1-p"]},
+            {"type": "try", "role": "independent", "questionIds": ["t4-q2"]},
+            {"type": "try", "role": "apply", "questionIds": ["t4-q1", "py05", "py51"]},
+            {"type": "recap", "items": ["Raoult's law: $p_i = x_ip_i^\circ$ for each volatile component.", "$p_{\text{total}} = p_1 + p_2$ (Dalton), a straight line in $x_2$ for an ideal solution.", "$p_{\text{total}}$ always lies between the two pure vapour pressures."], "next": "Lesson 4.2: what the vapour above the solution is made of."}
+          ]
+        },
+        {
+          "id": "t4-2",
+          "title": "Composition of the vapour",
+          "ncertRef": "1.4.1",
+          "minutes": 15,
+          "objective": "Find the mole fraction of each component in the vapour with Dalton's law, and explain why the vapour is richer in the more volatile component.",
+          "blocks": [
+            {"type": "h", "text": "Composition of the vapour"},
+            {"type": "formula", "label": "Mole fraction in the vapour phase (Dalton)", "status": "exact", "tex": "p_i = y_i\,p_{\text{total}} \quad\Rightarrow\quad y_i = \frac{p_i}{p_{\text{total}}}", "where": "$y_i$ is the mole fraction of component $i$ in the vapour.",
+             "conditions": "Dalton's law for an ideal gas mixture. $x$ describes the liquid, $y$ the vapour - do not mix them up."},
+            {"type": "callout", "kind": "remember", "text": "==At equilibrium the vapour is always richer in the more volatile component== (the one with the higher $p^\circ$). This is why fractional distillation works for ideal mixtures."},
+            {"type": "worked", "title": "Vapour pressure and vapour composition", "source": "NCERT Example 1.5",
+             "problem": "At 298 K, $p^\circ$(CHCl$_3$) = 200 mm Hg and $p^\circ$(CH$_2$Cl$_2$) = 415 mm Hg. Find (i) the vapour pressure of a solution of 25.5 g CHCl$_3$ and 40 g CH$_2$Cl$_2$, and (ii) the mole fractions in the vapour.",
+             "given": ["$p^\circ$(CHCl$_3$) = 200 mm Hg, $p^\circ$(CH$_2$Cl$_2$) = 415 mm Hg", "25.5 g CHCl$_3$, 40 g CH$_2$Cl$_2$"],
+             "find": "(i) $p_{\text{total}}$ (ii) $y$ of each component.",
+             "relation": "Raoult: $p_i = x_ip_i^\circ$; Dalton: $p_{\text{total}} = \sum p_i$ and $y_i = p_i/p_{\text{total}}$.",
+             "why": "Raoult's law needs the **liquid** mole fractions, so first turn the masses into moles.",
+             "convert": [
+               {"t": "Molar masses: CH$_2$Cl$_2$ = 12 + 2 + 71 = 85; CHCl$_3$ = 12 + 1 + 106.5 = 119.5 g mol$^{-1}$"},
+               {"t": "Moles: 40/85 = 0.4706 mol; 25.5/119.5 = 0.2134 mol; total 0.6840 mol"},
+               {"t": "$x_{\text{CH}_2\text{Cl}_2} = 0.4706/0.6840 = 0.688$; $x_{\text{CHCl}_3} = 0.312$"}
+             ],
+             "calc": [
+               {"t": "$p_{\text{total}} = 200 + (415 - 200)(0.688) = 347.9$ mm Hg"},
+               {"t": "$p_{\text{CH}_2\text{Cl}_2} = 0.688 \times 415 = 285.5$ mm Hg; $p_{\text{CHCl}_3} = 0.312 \times 200 = 62.4$ mm Hg"},
+               {"t": "$y_{\text{CH}_2\text{Cl}_2} = 285.5/347.9 = 0.82$; $y_{\text{CHCl}_3} = 0.18$", "why": "Each component's share of the vapour is its share of the total pressure."}
+             ],
+             "check": "CH$_2$Cl$_2$ is the more volatile liquid; its fraction rises from 0.688 in the liquid to 0.82 in the vapour, as expected.",
+             "answer": "(i) 347.9 mm Hg  (ii) $y$(CH$_2$Cl$_2$) = 0.82, $y$(CHCl$_3$) = 0.18 - the vapour is richer in the more volatile CH$_2$Cl$_2$.",
+             "board": [{"t": "$n$(CH$_2$Cl$_2$) = 40/85 = 0.47 mol; $n$(CHCl$_3$) = 25.5/119.5 = 0.213 mol"}, {"t": "$x$(CH$_2$Cl$_2$) = 0.688; $x$(CHCl$_3$) = 0.312"}, {"t": "$p_{\text{total}} = 0.312 \times 200 + 0.688 \times 415 = 347.9$ mm Hg"}, {"t": "$y$(CH$_2$Cl$_2$) = 285.5/347.9 = 0.82; $y$(CHCl$_3$) = 0.18"}],
+             "verify": [{"expr": "200+(415-200)*0.688", "expected": 347.9}, {"expr": "0.688*415/347.9", "expected": 0.82}]},
+            {"type": "try", "role": "partial", "questionIds": ["t4-2-p"]},
+            {"type": "try", "role": "independent", "questionIds": ["nc-in-1-8"]},
+            {"type": "try", "role": "apply", "questionIds": ["t4-q3", "t4-q5", "nc-ex-1-38"]},
+            {"type": "recap", "items": ["$y_i = p_i/p_{\text{total}}$ - vapour mole fractions come from partial pressures.", "The vapour is richer than the liquid in the more volatile component.", "Keep $x$ (liquid) and $y$ (vapour) separate."], "next": "Lesson 4.3: Raoult's law as a special case of Henry's law, and non-volatile solutes."}
+          ]
+        },
+        {
+          "id": "t4-3",
+          "title": "Raoult and Henry; solutions of a non-volatile solute",
+          "ncertRef": "1.4.2, 1.4.3",
+          "minutes": 12,
+          "objective": "Explain why Raoult's law is a special case of Henry's law, and why a non-volatile solute lowers the vapour pressure of the solvent.",
+          "blocks": [
+            {"type": "h", "text": "Raoult's law as a special case of Henry's law"},
+            {"type": "p", "text": "Compare $p_i = x_i p_i^\circ$ (Raoult) with $p = K_H x$ (Henry). Both say the partial pressure of a volatile component is proportional to its mole fraction in solution; only the constant differs. So ==Raoult's law is a special case of Henry's law in which $K_H$ becomes equal to $p_1^\circ$==."},
+            {"type": "h", "text": "Solutions of a non-volatile solid in a liquid"},
+            {"type": "p", "text": "When a non-volatile solute (glucose, urea, NaCl) dissolves, only solvent molecules enter the vapour. Part of the surface is now occupied by solute particles, so fewer solvent molecules escape per second: ==the vapour pressure of the solution is lower than that of the pure solvent== at the same temperature."},
+            {"type": "svg", "svg": "@file:figures/vp_surface.svg", "caption": "Schematic after NCERT Fig. 1.4: in the solution some surface places are occupied by solute particles, so fewer solvent particles escape per second. Not to scale.", "alt": "Pure solvent surface versus solution surface with some solute particles; fewer escaping arrows from the solution"},
+            {"type": "p", "text": "The lowering depends on the **amount** of solute, not its identity - 1 mol of sucrose and 1 mol of urea in 1 kg of water lower the vapour pressure by nearly the same amount."},
+            {"type": "callout", "kind": "remember", "title": "Raoult's law - general form", "text": "For any solution, the partial vapour pressure of each volatile component is directly proportional to its mole fraction. With a non-volatile solute: $p_1 = x_1 p_1^\circ$. A plot of $p_1$ against $x_1$ is a straight line from zero to $p_1^\circ$ (NCERT Fig. 1.5)."},
+            {"type": "worked", "title": "A 2-mark written answer: Raoult and Henry",
+             "problem": "State Raoult's law for a solution of volatile components. How is it a special case of Henry's law?",
+             "steps": [{"t": "Statement: for a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction in the solution, $p_i = x_ip_i^\circ$."}, {"t": "Henry's law has the same form, $p = K_Hx$: partial pressure proportional to mole fraction."}, {"t": "So Raoult's law is the special case of Henry's law in which $K_H = p_i^\circ$."}],
+             "answer": "Raoult: $p_i = x_ip_i^\circ$. It is Henry's law $p = K_Hx$ with $K_H = p_i^\circ$."},
+            {"type": "callout", "kind": "exam", "text": "2020, 2025 and 2026 asked: 'State Raoult's law for a solution containing volatile components' together with either 'How is it a special case of Henry's law?' or 'Write two characteristics of a solution that obeys Raoult's law at all concentrations'. Learn all three as one 2-mark answer."},
+            {"type": "try", "role": "check", "questionIds": ["t4-q4", "t4-q7"]},
+            {"type": "try", "role": "independent", "questionIds": ["t4-q6", "py74"]},
+            {"type": "try", "role": "apply", "questionIds": ["py55", "py62"]},
+            {"type": "recap", "items": ["Raoult's law is Henry's law with $K_H = p^\circ$.", "A non-volatile solute lowers the solvent's vapour pressure: $p_1 = x_1p_1^\circ$.", "The lowering depends on how many solute particles there are, not what they are."], "next": "Topic 5: ideal and non-ideal solutions, and azeotropes."}
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {"id": "t3-2-p", "type": "numerical", "topic": "t3", "concept": "henry", "marks": 2, "difficulty": "easy",
+     "q": "At 298 K, $K_H$ for argon in water is 40.3 kbar. Find the mole fraction of argon dissolved in water when its partial pressure is 0.0093 bar.",
+     "scaffold": [{"t": "$K_H$ = 40.3 kbar = 40 300 bar (same unit as $p$)"}, {"t": "Henry's law: $x = p/K_H$"}],
+     "check": {"answer": 2.308e-7, "units": [], "tol": 0.01e-7,
+       "mistakes": [{"answer": 2.308e-4, "tol": 0.01e-4, "msg": "Check the units of $K_H$: 40.3 kbar is 40 300 bar, not 40.3 bar."}, {"answer": 4333000, "tol": 20000, "msg": "You divided $K_H$ by $p$. Henry's law rearranges to $x = p/K_H$."}]},
+     "hints": ["Which law links partial pressure and mole fraction of a dissolved gas?", "$x = p/K_H$ with both in bar."],
+     "solution": {"steps": [{"t": "$x = 0.0093/40\,300 = 2.31 \times 10^{-7}$"}], "final": "$2.31 \times 10^{-7}$"},
+     "verify": {"expr": "0.0093/40300", "expected": 2.308e-7}},
+    {"id": "t4-1-p", "type": "numerical", "topic": "t4", "concept": "raoult", "marks": 2, "difficulty": "easy",
+     "q": "Liquids A ($p_A^\circ$ = 120 kPa) and B ($p_B^\circ$ = 40 kPa) form an ideal solution with $x_A$ = 0.25. Find the total vapour pressure.",
+     "scaffold": [{"t": "$x_B = 1 - 0.25 = 0.75$"}, {"t": "$p_A = x_Ap_A^\circ = 0.25 \times 120 = 30$ kPa"}],
+     "check": {"answer": 60, "units": ["kPa"], "tol": 0.3,
+       "steps": [{"label": "$p_B$", "unit": "kPa", "answer": 30, "tol": 0.2, "expr": "0.75*40"}],
+       "mistakes": [{"answer": 40, "tol": 0.2, "msg": "You used $x_A$ for both components. B's mole fraction is 0.75."}, {"answer": 80, "tol": 0.3, "msg": "That is the average of the two pure vapour pressures. Weight each by its own mole fraction."}]},
+     "hints": ["Total = $p_A + p_B$, each from Raoult's law."],
+     "solution": {"steps": [{"t": "$p_B = 0.75 \times 40 = 30$ kPa"}, {"t": "$p_{\text{total}} = 30 + 30 = 60$ kPa"}], "final": "60 kPa"},
+     "verify": {"expr": "0.25*120+0.75*40", "expected": 60}},
+    {"id": "t4-2-p", "type": "numerical", "topic": "t4", "concept": "vapour-composition", "marks": 2, "difficulty": "medium",
+     "q": "Benzene ($p^\circ$ = 75 mm Hg) and toluene ($p^\circ$ = 22 mm Hg) form an ideal solution with $x_{\text{benzene}}$ = 0.50. Find the mole fraction of benzene in the vapour.",
+     "scaffold": [{"t": "$p_{\text{benzene}} = 0.50 \times 75 = 37.5$ mm Hg; $p_{\text{toluene}} = 0.50 \times 22 = 11$ mm Hg"}],
+     "check": {"answer": 0.7732, "units": [], "tol": 0.002,
+       "steps": [{"label": "$p_{\text{total}}$", "unit": "mm Hg", "answer": 48.5, "tol": 0.2, "expr": "37.5+11"}],
+       "mistakes": [{"answer": 0.5, "tol": 0.002, "msg": "0.50 is the mole fraction in the **liquid**. In the vapour, use $y = p_{\text{benzene}}/p_{\text{total}}$."}, {"answer": 0.2268, "tol": 0.002, "msg": "That is toluene's share of the vapour."}]},
+     "hints": ["$y = p_i/p_{\text{total}}$.", "$p_{\text{total}} = 37.5 + 11$."],
+     "solution": {"steps": [{"t": "$p_{\text{total}} = 37.5 + 11 = 48.5$ mm Hg"}, {"t": "$y_{\text{benzene}} = 37.5/48.5 = 0.773$"}], "final": "0.773 - richer in benzene than the liquid (0.50)"},
+     "verify": {"expr": "37.5/48.5", "expected": 0.7732}}
+  ]
+}

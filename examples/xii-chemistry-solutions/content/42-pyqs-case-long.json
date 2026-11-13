@@ -1,0 +1,1001 @@
+{
+ "pyqs": [
+  {
+   "id": "py115",
+   "type": "case",
+   "topic": "t8",
+   "marks": 4,
+   "competency": true,
+   "source": {
+    "year": 2026,
+    "kind": "main",
+    "set": "56/2/1",
+    "q": "29",
+    "marks": 4,
+    "repeats": [
+     "2026 56/2/3 Q29",
+     "2026 56/2/2 Q30"
+    ]
+   },
+   "passage": "The passage (summarised): osmosis is the passage of solvent through a semipermeable membrane from lower to higher solute concentration; osmotic pressure is a colligative property; applying more than the osmotic pressure causes reverse osmosis. Solutions of equal osmotic pressure are isotonic; one of lower osmotic pressure is hypotonic and one of higher osmotic pressure hypertonic relative to the other. Blood-cell fluid is isotonic with 0.9% (m/V) NaCl (normal saline), which is safe for intravenous use. Osmosis explains why IV fluids must match blood, and why food is preserved with salt or sugar.",
+   "parts": [
+    {
+     "type": "numerical",
+     "marks": 2,
+     "q": "How much CaCl$_2$ ($i$ = 2.59, 111 g mol$^{-1}$) must be dissolved in 2.46 L of water for an osmotic pressure of 0.70 atm at 27 °C? ($R$ = 0.082 L atm K$^{-1}$ mol$^{-1}$)",
+     "solution": {
+      "steps": [
+       {
+        "t": "$\\pi = i\\dfrac{w}{M V}RT$: $0.70 = 2.59 \\times \\dfrac{w}{111 \\times 2.46} \\times 0.082 \\times 300$",
+        "m": 1
+       },
+       {
+        "t": "$w = \\dfrac{0.70 \\times 111 \\times 2.46}{2.59 \\times 0.082 \\times 300} = 3.0$ g",
+        "m": 1
+       }
+      ],
+      "final": "3.0 g"
+     },
+     "verify": {
+      "expr": "0.70*111*2.46/(2.59*0.082*300)",
+      "expected": 3.0
+     },
+     "label": "a"
+    },
+    {
+     "type": "oneword",
+     "marks": 1,
+     "q": "Raisins swell when kept in water. Name the phenomenon.",
+     "answer": "Osmosis (water enters the raisin through its skin, which acts as a semipermeable membrane).",
+     "alt": {
+      "type": "short",
+      "marks": 1,
+      "q": "Why is osmotic pressure more advantageous than the other colligative properties?",
+      "solution": {
+       "points": [
+        "Its magnitude is large even for very dilute solutions; it is measured at room temperature; it uses molarity instead of molality."
+       ]
+      }
+     },
+     "label": "b"
+    },
+    {
+     "type": "oneword",
+     "marks": 1,
+     "q": "Which phenomenon is used for the desalination of sea water?",
+     "answer": "Reverse osmosis",
+     "label": "c"
+    }
+   ]
+  },
+  {
+   "id": "py116",
+   "type": "case",
+   "topic": "t5",
+   "marks": 4,
+   "competency": true,
+   "source": {
+    "year": 2025,
+    "kind": "main",
+    "set": "56/4/1",
+    "q": "29",
+    "marks": 4,
+    "repeats": [
+     "2025 56/4/2 Q30",
+     "2025 56/4/3 Q29"
+    ]
+   },
+   "passage": "The passage (summarised): by the usual definition, an ideal solution has equal interaction forces between like and unlike molecules. Strictly this holds only in exceptional cases (optical isomers, isotopic mixtures, some hydrocarbon mixtures), but very dilute solutions behave ideally with respect to the solvent, and Raoult's law, found empirically for the solvent in dilute solutions, can be derived from that assumption.",
+   "parts": [
+    {
+     "type": "short",
+     "marks": 2,
+     "q": "Give one example of a miscible liquid pair showing negative deviation from Raoult's law, and the reason for the deviation.",
+     "solution": {
+      "points": [
+       "Chloroform + acetone (or phenol + aniline).",
+       "The A-B attraction (a hydrogen bond between chloroform's H and acetone's O) is stronger than the A-A and B-B attractions, so the escaping tendency and vapour pressure decrease."
+      ]
+     },
+     "label": "a"
+    },
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "State Raoult's law for a solution of volatile components.",
+     "solution": {
+      "points": [
+       "The partial vapour pressure of each component is directly proportional to its mole fraction in the solution."
+      ]
+     },
+     "alt": {
+      "type": "short",
+      "marks": 1,
+      "q": "'Raoult's law is a special case of Henry's law.' Comment.",
+      "solution": {
+       "points": [
+        "Both give partial pressure ∝ mole fraction ($p = K_Hx$ and $p = p^\\circ x$); Raoult's law is Henry's law with $K_H = p^\\circ$."
+       ]
+      }
+     },
+     "label": "b"
+    },
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "Write two characteristics of an ideal solution.",
+     "solution": {
+      "points": [
+       "$\\Delta_{mix}H = 0$ and $\\Delta_{mix}V = 0$ (it also obeys Raoult's law over the entire range of concentration)."
+      ]
+     },
+     "label": "c"
+    }
+   ]
+  },
+  {
+   "id": "py117",
+   "type": "case",
+   "topic": "t8",
+   "marks": 4,
+   "competency": true,
+   "source": {
+    "year": 2025,
+    "kind": "main",
+    "set": "56/2/1",
+    "q": "29",
+    "marks": 4
+   },
+   "passage": "The passage (summarised): osmosis is the spontaneous flow of solvent through a semipermeable membrane from pure solvent to solution, or from a dilute to a concentrated solution. It can be shown with two eggs whose shells have been dissolved in dilute HCl: the membrane under the shell is semipermeable. The egg in distilled water swells; the egg in saturated salt solution shrinks. The external pressure that stops osmosis is the osmotic pressure (a colligative property); a larger applied pressure causes reverse osmosis.",
+   "parts": [
+    {
+     "type": "short",
+     "marks": 2,
+     "q": "Define reverse osmosis. Name one semipermeable membrane that can be used for it.",
+     "solution": {
+      "points": [
+       "When a pressure larger than the osmotic pressure is applied to the solution side, solvent flows from the solution through the membrane to the solvent side.",
+       "Cellulose acetate."
+      ]
+     },
+     "label": "a"
+    },
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "What happens when red blood cells are placed in 0.5% NaCl solution?",
+     "solution": {
+      "points": [
+       "They swell (and may burst): 0.5% NaCl is hypotonic, so water enters the cells by osmosis."
+      ]
+     },
+     "alt": {
+      "type": "short",
+      "marks": 1,
+      "q": "Which has the higher osmotic pressure, 1 M KCl or 1 M urea? Justify.",
+      "solution": {
+       "points": [
+        "1 M KCl: it dissociates into two ions ($i$ = 2), urea does not."
+       ]
+      }
+     },
+     "label": "b"
+    },
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "Why is osmotic pressure a colligative property?",
+     "solution": {
+      "points": [
+       "It depends only on the number of solute particles in the solution, not on their nature."
+      ]
+     },
+     "label": "c"
+    }
+   ]
+  },
+  {
+   "id": "py118",
+   "type": "case",
+   "topic": "t5",
+   "marks": 4,
+   "competency": true,
+   "source": {
+    "year": 2024,
+    "kind": "compartment",
+    "set": "56/S/1",
+    "q": "30",
+    "marks": 4,
+    "repeats": [
+     "2024 compartment 56/S/2 Q29",
+     "56/S/3 Q30"
+    ]
+   },
+   "passage": "The passage (summarised): non-ideal solutions deviate from Raoult's law because solute-solvent interactions differ from solute-solute and solvent-solvent interactions. Some liquids form azeotropes - binary mixtures with the same composition in liquid and vapour that boil at a constant temperature and cannot be separated by fractional distillation. There are minimum boiling and maximum boiling azeotropes.",
+   "parts": [
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "Pure ethanol cannot be obtained by fractional distillation of an ethanol-water mixture. Comment.",
+     "solution": {
+      "points": [
+       "Ethanol and water form a minimum boiling azeotrope (about 95% ethanol by volume); once that composition is reached, liquid and vapour have the same composition, so no further separation occurs."
+      ]
+     },
+     "label": "a"
+    },
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "Why does a chloroform-acetone mixture deviate from ideal behaviour?",
+     "solution": {
+      "points": [
+       "Chloroform hydrogen bonds to acetone, so A-B attraction is stronger than A-A and B-B: negative deviation."
+      ]
+     },
+     "label": "b"
+    },
+    {
+     "type": "numerical",
+     "marks": 2,
+     "q": "Pure benzene has a vapour pressure of 1.25 atm at a certain temperature. Adding 1.2 g of a non-volatile non-electrolyte to 60 g of benzene (78 g mol$^{-1}$) lowers it to 1.237 atm. Find the molar mass of the solute.",
+     "solution": {
+      "steps": [
+       {
+        "t": "$\\dfrac{1.25 - 1.237}{1.25} = 0.0104 = \\dfrac{1.2 \\times 78}{M_2 \\times 60}$",
+        "m": 1
+       },
+       {
+        "t": "$M_2$ = 150 g mol$^{-1}$",
+        "m": 1
+       }
+      ],
+      "final": "150 g mol$^{-1}$"
+     },
+     "verify": {
+      "expr": "1.2*78*1.25/(0.013*60)",
+      "expected": 150
+     },
+     "alt": {
+      "type": "numerical",
+      "marks": 2,
+      "q": "Benzene boils at 353.23 K. 1.80 g of a non-volatile solute in 90 g of benzene raises the boiling point to 354.11 K. Find the molar mass. ($K_b$ = 2.53 K kg mol$^{-1}$)",
+      "solution": {
+       "steps": [
+        {
+         "t": "$\\Delta T_b$ = 0.88 K; $M_2 = \\dfrac{1000 \\times 2.53 \\times 1.8}{0.88 \\times 90}$",
+         "m": 1
+        },
+        {
+         "t": "= 58 g mol$^{-1}$ (NCERT Example 1.8)",
+         "m": 1
+        }
+       ],
+       "final": "58 g mol$^{-1}$"
+      },
+      "verify": {
+       "expr": "1000*2.53*1.8/(0.88*90)",
+       "expected": 58
+      }
+     },
+     "label": "c"
+    }
+   ]
+  },
+  {
+   "id": "py119",
+   "type": "case",
+   "topic": "t4",
+   "marks": 4,
+   "competency": true,
+   "source": {
+    "year": 2023,
+    "kind": "compartment",
+    "set": "56/C/1",
+    "q": "32",
+    "marks": 4,
+    "repeats": [
+     "2023 compartment 56/C/2 Q31",
+     "56/C/3 Q32"
+    ]
+   },
+   "passage": "The passage (summarised): Raoult's law for volatile liquids relates each partial vapour pressure to the mole fraction; for a non-volatile solute, the solution's vapour pressure equals the pure solvent's vapour pressure times its mole fraction, so it is lower than the solvent's. Solutions obeying Raoult's law over the entire range are ideal; others are non-ideal and show positive or negative deviation depending on whether A-B interactions are weaker or stronger than A-A and B-B interactions.",
+   "parts": [
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "20 mL of liquid A mixed with 20 mL of liquid B gives less than 40 mL of solution. What do you conclude?",
+     "solution": {
+      "points": [
+       "The solution shows negative deviation from Raoult's law: A-B attractions are stronger than A-A and B-B, so the molecules pack more closely ($\\Delta_{mix}V < 0$)."
+      ]
+     },
+     "label": "a"
+    },
+    {
+     "type": "short",
+     "marks": 1,
+     "q": "Which of these show positive deviation: carbon disulphide + acetone; phenol + aniline; ethanol + acetone?",
+     "solution": {
+      "points": [
+       "Carbon disulphide + acetone and ethanol + acetone. (Phenol + aniline shows negative deviation.)"
+      ]
+     },
+     "label": "b"
+    },
+    {
+     "type": "numerical",
+     "marks": 2,
+     "q": "A glucose solution in water has a vapour pressure of 750 mm Hg at 100 °C. Find the mole fraction of the solute. (Vapour pressure of water at 373 K = 760 mm Hg)",
+     "solution": {
+      "steps": [
+       {
+        "t": "$x_2 = \\dfrac{p^\\circ - p}{p^\\circ} = \\dfrac{760 - 750}{760}$",
+        "m": 1
+       },
+       {
+        "t": "= 0.013",
+        "m": 1
+       }
+      ],
+      "final": "0.013"
+     },
+     "verify": {
+      "expr": "10/760",
+      "expected": 0.01316
+     },
+     "alt": {
+      "type": "short",
+      "marks": 2,
+      "q": "Adding 1 mol of NaCl to 1 L of water raises its boiling point, while adding 1 mol of methanol lowers it. Explain.",
+      "solution": {
+       "points": [
+        "NaCl is non-volatile (and gives 2 ions): it lowers the vapour pressure, raising the boiling point.",
+        "Methanol is more volatile than water: it increases the vapour pressure of the solution, lowering the boiling point."
+       ]
+      }
+     },
+     "label": "c"
+    }
+   ]
+  },
+  {
+   "id": "py120",
+   "type": "long",
+   "topic": "t9",
+   "marks": 5,
+   "source": {
+    "year": 2026,
+    "kind": "main",
+    "set": "56/5/1",
+    "q": "31",
+    "marks": 5,
+    "repeats": [
+     "2026 56/5/2 Q32",
+     "2026 56/5/3 Q33"
+    ]
+   },
+   "q": "(a) (i) Find the freezing point of a solution of 10.5 g of MgBr$_2$ (184 g mol$^{-1}$) in 250 g of water, assuming complete dissociation. ($K_f$ = 1.86 K kg mol$^{-1}$) (ii) Write two differences between ideal and non-ideal solutions.",
+   "solution": {
+    "steps": [
+     {
+      "t": "(i) $i$ = 3; $m = \\dfrac{10.5 \\times 1000}{184 \\times 250} = 0.228$ mol kg$^{-1}$",
+      "m": 1
+     },
+     {
+      "t": "$\\Delta T_f = 3 \\times 1.86 \\times 0.228 = 1.27$ K",
+      "m": 1
+     },
+     {
+      "t": "Freezing point = -1.27 °C (271.88 K)",
+      "m": 1
+     },
+     {
+      "t": "(ii) Ideal obeys Raoult's law at all concentrations, non-ideal does not; ideal has $\\Delta_{mix}H$ = 0 and $\\Delta_{mix}V$ = 0, non-ideal does not.",
+      "m": 2
+     }
+    ],
+    "final": "-1.27 °C"
+   },
+   "verify": {
+    "expr": "-3*1.86*10.5*1000/(184*250)",
+    "expected": -1.274
+   },
+   "alt": {
+    "type": "long",
+    "q": "(b) (i) 0.025 g of K$_2$SO$_4$ (174 g mol$^{-1}$) is dissolved in 2 L of water at 27 °C. Assuming complete dissociation, find the osmotic pressure. ($R$ = 0.082 L atm K$^{-1}$ mol$^{-1}$) (ii) What type of azeotrope do acetone and chloroform form? Give a reason.",
+    "solution": {
+     "steps": [
+      {
+       "t": "(i) $i$ = 3; $n$ = 0.025/174 = $1.44 \\times 10^{-4}$ mol",
+       "m": 1
+      },
+      {
+       "t": "$\\pi = 3 \\times \\dfrac{1.44 \\times 10^{-4}}{2} \\times 0.082 \\times 300 = 5.30 \\times 10^{-3}$ atm",
+       "m": 2
+      },
+      {
+       "t": "(ii) Maximum boiling azeotrope: hydrogen bonding between chloroform and acetone gives negative deviation (lower vapour pressure, higher boiling point).",
+       "m": 2
+      }
+     ],
+     "final": "$5.30 \\times 10^{-3}$ atm"
+    },
+    "verify": {
+     "expr": "3*(0.025/174)/2*0.082*300",
+     "expected": 0.0053
+    }
+   }
+  },
+  {
+   "id": "py121",
+   "type": "long",
+   "topic": "t9",
+   "marks": 5,
+   "source": {
+    "year": 2025,
+    "kind": "main",
+    "set": "56(B)",
+    "q": "33",
+    "marks": 5
+   },
+   "q": "(A) (a) Find the boiling point of a solution of 6 g of MgSO$_4$ (120 g mol$^{-1}$) in 200 g of water, assuming complete dissociation. ($K_b$ = 0.52 K kg mol$^{-1}$) (b) State Raoult's law for a solution of volatile components. How is Raoult's law a special case of Henry's law?",
+   "solution": {
+    "steps": [
+     {
+      "t": "(a) $i$ = 2; $m = \\dfrac{6 \\times 1000}{120 \\times 200} = 0.25$ mol kg$^{-1}$",
+      "m": 1
+     },
+     {
+      "t": "$\\Delta T_b = 2 \\times 0.52 \\times 0.25 = 0.26$ K; boiling point = 100.26 °C (373.41 K)",
+      "m": 2
+     },
+     {
+      "t": "(b) Partial vapour pressure of each component ∝ its mole fraction. Henry: $p = K_Hx$; Raoult: $p = p^\\circ x$ - the same form with $K_H = p^\\circ$.",
+      "m": 2
+     }
+    ],
+    "final": "100.26 °C"
+   },
+   "verify": {
+    "expr": "100+2*0.52*6*1000/(120*200)",
+    "expected": 100.26,
+    "tol": 0.0001
+   },
+   "alt": {
+    "type": "long",
+    "q": "(B) (a) 5 g of benzoic acid in 35 g of benzene depresses the freezing point by 2.94 K ($K_f$ = 4.9). Find the percentage association (dimer). (b) Define (i) ideal solution, (ii) osmotic pressure.",
+    "solution": {
+     "steps": [
+      {
+       "t": "(a) $i$ = 0.512, $\\alpha$ = 97.5% (worked fully in the 3-mark version, py91).",
+       "m": 3
+      },
+      {
+       "t": "(b) (i) A solution that obeys Raoult's law over the entire range of concentration. (ii) The excess pressure that must be applied to a solution to prevent osmosis.",
+       "m": 2
+      }
+     ],
+     "final": "97.5%"
+    },
+    "verify": {
+     "expr": "2*(1-2.94/(4.9*5*1000/(122*35)))",
+     "expected": 0.975
+    }
+   }
+  },
+  {
+   "id": "py122",
+   "type": "long",
+   "topic": "t4",
+   "marks": 5,
+   "source": {
+    "year": 2025,
+    "kind": "compartment",
+    "set": "56/S/1",
+    "q": "32",
+    "marks": 5,
+    "repeats": [
+     "2025 compartment 56/S/2 Q33",
+     "56/S/3 Q31"
+    ]
+   },
+   "q": "(a) (i) Define osmotic pressure. Why is it a colligative property? (ii) At 400 K, pure A and pure B have vapour pressures of 450 and 700 mm Hg. Find the liquid composition if the total vapour pressure is 600 mm Hg.",
+   "solution": {
+    "steps": [
+     {
+      "t": "(i) The excess pressure that must be applied to a solution to prevent osmosis; it depends only on the number of solute particles (π = CRT), not their nature.",
+      "m": 2
+     },
+     {
+      "t": "(ii) 600 = 450 + (700 - 450)$x_B$",
+      "m": 1
+     },
+     {
+      "t": "$x_B$ = 0.6, $x_A$ = 0.4",
+      "m": 2
+     }
+    ],
+    "final": "$x_A$ = 0.4, $x_B$ = 0.6"
+   },
+   "verify": {
+    "expr": "(600-450)/(700-450)",
+    "expected": 0.6
+   },
+   "alt": {
+    "type": "long",
+    "q": "(b) (i) What deviation from Raoult's law is expected when phenol and aniline are mixed? What changes in net volume and enthalpy are expected? (ii) Water boils at 99.48 °C at 750 mm Hg. How much sucrose (342 g mol$^{-1}$) must be added to 500 g of water so that it boils at 100 °C? ($K_b$ = 0.52 K kg mol$^{-1}$)",
+    "solution": {
+     "steps": [
+      {
+       "t": "(i) Negative deviation; volume decreases ($\\Delta_{mix}V < 0$) and heat is released ($\\Delta_{mix}H < 0$).",
+       "m": 2
+      },
+      {
+       "t": "(ii) $\\Delta T_b$ = 0.52 K, so $m$ = 0.52/0.52 = 1 mol kg$^{-1}$; 0.5 kg water needs 0.5 mol",
+       "m": 2
+      },
+      {
+       "t": "Mass = 0.5 × 342 = 171 g",
+       "m": 1
+      }
+     ],
+     "final": "171 g"
+    },
+    "verify": {
+     "expr": "(100-99.48)/0.52*0.5*342",
+     "expected": 171
+    }
+   }
+  },
+  {
+   "id": "py123",
+   "type": "long",
+   "topic": "t9",
+   "marks": 5,
+   "source": {
+    "year": 2024,
+    "kind": "main",
+    "set": "56/1/1",
+    "q": "31",
+    "marks": 5,
+    "repeats": [
+     "2024 56/1/2 Q32",
+     "2024 56/1/3 Q33"
+    ]
+   },
+   "q": "(a) (i) At the same temperature CO$_2$ is more soluble in water than O$_2$. Which has the higher $K_H$, and why? (ii) How does the size of blood cells change in an aqueous solution containing more than 0.9% (m/V) NaCl? (iii) A 1 molal aqueous solution of an electrolyte A$_2$B$_3$ is 60% ionised. Find its boiling point. ($K_b$ = 0.52 K kg mol$^{-1}$)",
+   "solution": {
+    "steps": [
+     {
+      "t": "(i) O$_2$: $x = p/K_H$, so the less soluble gas has the higher $K_H$.",
+      "m": 1
+     },
+     {
+      "t": "(ii) They shrink - the solution is hypertonic, so water leaves the cells.",
+      "m": 1
+     },
+     {
+      "t": "(iii) A$_2$B$_3$ → 2A$^{3+}$ + 3B$^{2-}$ ($n$ = 5): $i = 1 + 4(0.6) = 3.4$",
+      "m": 1
+     },
+     {
+      "t": "$\\Delta T_b = 3.4 \\times 0.52 \\times 1 = 1.77$ K; boiling point = 101.77 °C (374.92 K)",
+      "m": 2
+     }
+    ],
+    "final": "101.77 °C"
+   },
+   "verify": {
+    "expr": "100+(1+4*0.6)*0.52*1",
+    "expected": 101.768,
+    "tol": 0.0001
+   },
+   "alt": {
+    "type": "long",
+    "q": "(b) (i) A and B have vapour pressures of 75 and 25 mm Hg at 25 °C. If $x_A$ = 0.4 in the liquid, find the mole fraction of B in the vapour. (ii) Define colligative property. Which one is preferred for the molar mass of macromolecules? (iii) Why are equimolar solutions of NaCl and glucose not isotonic?",
+    "solution": {
+     "steps": [
+      {
+       "t": "(i) $p_A$ = 0.4 × 75 = 30; $p_B$ = 0.6 × 25 = 15; total 45 mm Hg; $y_B$ = 15/45 = 0.33",
+       "m": 2
+      },
+      {
+       "t": "(ii) A property that depends on the number of solute particles, not their nature; osmotic pressure.",
+       "m": 2
+      },
+      {
+       "t": "(iii) NaCl dissociates into two ions, so it has about twice the particles and a higher osmotic pressure than glucose.",
+       "m": 1
+      }
+     ],
+     "final": "$y_B$ = 0.33"
+    },
+    "verify": {
+     "expr": "0.6*25/(0.4*75+0.6*25)",
+     "expected": 0.333
+    }
+   }
+  },
+  {
+   "id": "py124",
+   "type": "long",
+   "topic": "t6",
+   "marks": 5,
+   "source": {
+    "year": 2024,
+    "kind": "main",
+    "set": "56/4/1",
+    "q": "32",
+    "marks": 5
+   },
+   "q": "(a) (i) Define reverse osmosis. (ii) Why are aquatic species more comfortable in cold water than in warm water? (iii) 2 g of glucose (180 g mol$^{-1}$) in 100 g of water at 303 K: if pure water's vapour pressure is 32.8 mm Hg, what is the solution's vapour pressure?",
+   "solution": {
+    "steps": [
+     {
+      "t": "(i) Flow of solvent out of a solution through a semipermeable membrane when a pressure larger than the osmotic pressure is applied on the solution side.",
+      "m": 1
+     },
+     {
+      "t": "(ii) O$_2$ solubility is higher at lower temperature ($K_H$ smaller).",
+      "m": 1
+     },
+     {
+      "t": "(iii) $n_2$ = 2/180 = 0.0111; $n_1$ = 100/18 = 5.556; $\\dfrac{32.8 - p}{32.8} = \\dfrac{0.0111}{5.556} = 0.002$",
+      "m": 2
+     },
+     {
+      "t": "$p$ = 32.8 - 0.0656 = 32.73 mm Hg",
+      "m": 1
+     }
+    ],
+    "final": "32.73 mm Hg"
+   },
+   "verify": {
+    "expr": "32.8*(1-(2/180)/(100/18))",
+    "expected": 32.734,
+    "tol": 0.0001
+   },
+   "alt": {
+    "type": "long",
+    "q": "(b) (i) Is the van't Hoff factor less or more than one for ethanoic acid in benzene? (ii) Define an ideal solution. (iii) How much CaCl$_2$ (111 g mol$^{-1}$) must be dissolved in 500 g of water to lower its freezing point by 2 K, assuming complete dissociation? ($K_f$ = 1.86 K kg mol$^{-1}$)",
+    "solution": {
+     "steps": [
+      {
+       "t": "(i) Less than one - ethanoic acid dimerises in benzene.",
+       "m": 1
+      },
+      {
+       "t": "(ii) A solution that obeys Raoult's law over the entire range of concentration.",
+       "m": 1
+      },
+      {
+       "t": "(iii) $2 = 3 \\times 1.86 \\times \\dfrac{w \\times 1000}{111 \\times 500}$, so $w$ = 19.9 g",
+       "m": 3
+      }
+     ],
+     "final": "19.9 g"
+    },
+    "verify": {
+     "expr": "2*111*500/(3*1.86*1000)",
+     "expected": 19.89
+    }
+   }
+  },
+  {
+   "id": "py125",
+   "type": "long",
+   "topic": "t7",
+   "marks": 5,
+   "source": {
+    "year": 2024,
+    "kind": "main",
+    "set": "56/5/1",
+    "q": "32",
+    "marks": 5
+   },
+   "q": "(a) (i) Ishan's car radiator holds 1.0 kg of water. How many grams of ethylene glycol (62 g mol$^{-1}$) must he add to lower the freezing point to -2.8 °C? ($K_f$ = 1.86 K kg mol$^{-1}$) (ii) What type of deviation from Raoult's law does an ethanol-acetone mixture show? Give a reason.",
+   "solution": {
+    "steps": [
+     {
+      "t": "(i) $\\Delta T_f$ = 2.8 K; $m$ = 2.8/1.86 = 1.505 mol kg$^{-1}$",
+      "m": 1.5
+     },
+     {
+      "t": "Mass = 1.505 × 62 = 93.3 g",
+      "m": 1.5
+     },
+     {
+      "t": "(ii) Positive deviation: acetone breaks some hydrogen bonds of ethanol, so the interactions weaken and the vapour pressure rises.",
+      "m": 2
+     }
+    ],
+    "final": "93.3 g"
+   },
+   "verify": {
+    "expr": "2.8/1.86*62",
+    "expected": 93.33
+   },
+   "alt": {
+    "type": "long",
+    "q": "(b) (i) Water boils at 99.68 °C at 750 mm Hg. How much sucrose (342 g mol$^{-1}$) must be added to 500 g of water for it to boil at 100 °C? ($K_b$ = 0.52 K kg mol$^{-1}$) (ii) State Henry's law and give one application.",
+    "solution": {
+     "steps": [
+      {
+       "t": "(i) $\\Delta T_b$ = 0.32 K; $m$ = 0.32/0.52 = 0.615 mol kg$^{-1}$; for 0.5 kg: 0.308 mol",
+       "m": 2
+      },
+      {
+       "t": "Mass = 0.308 × 342 = 105.2 g",
+       "m": 1
+      },
+      {
+       "t": "(ii) At constant temperature, the partial pressure of a gas in the vapour phase is proportional to its mole fraction in the solution; e.g. soft drinks are sealed under high CO$_2$ pressure.",
+       "m": 2
+      }
+     ],
+     "final": "105.2 g"
+    },
+    "verify": {
+     "expr": "0.32/0.52*0.5*342",
+     "expected": 105.2
+    }
+   }
+  },
+  {
+   "id": "py126",
+   "type": "long",
+   "topic": "t9",
+   "marks": 5,
+   "source": {
+    "year": 2023,
+    "kind": "main",
+    "set": "56/5/1",
+    "q": "33",
+    "marks": 5,
+    "repeats": [
+     "2023 56/5/2 Q34",
+     "2023 56/5/3 Q34"
+    ]
+   },
+   "q": "(a) (i) Why does 1 M NaCl boil at a higher temperature than 1 M glucose? (ii) A non-volatile solute X (50 g mol$^{-1}$) dissolved in 78 g of benzene reduces its vapour pressure to 90%. Find the mass of X. (iii) Find the elevation of boiling point when 10 g of MgCl$_2$ (95 g mol$^{-1}$) is added to 200 g of water, assuming complete dissociation. ($K_b$ = 0.512 K kg mol$^{-1}$)",
+   "solution": {
+    "steps": [
+     {
+      "t": "(i) NaCl gives two ions ($i$ = 2), glucose does not dissociate; more particles mean a larger $\\Delta T_b$.",
+      "m": 1
+     },
+     {
+      "t": "(ii) 78 g benzene = 1 mol; $x_{\\text{solvent}}$ = 0.9: $\\dfrac{1}{1 + n} = 0.9$ gives $n$ = 0.111 mol; mass = 5.56 g",
+      "m": 2
+     },
+     {
+      "t": "(iii) $i$ = 3; $\\Delta T_b = 3 \\times 0.512 \\times \\dfrac{10 \\times 1000}{95 \\times 200} = 0.81$ K",
+      "m": 2
+     }
+    ],
+    "final": "(ii) 5.56 g  (iii) 0.81 K",
+    "notes": "For (ii) the marking scheme also accepts 5 g from the dilute approximation $n_2/n_1$ = 0.1."
+   },
+   "verify": [
+    {
+     "expr": "(1/0.9-1)*50",
+     "expected": 5.556
+    },
+    {
+     "expr": "3*0.512*10*1000/(95*200)",
+     "expected": 0.8084
+    }
+   ],
+   "alt": {
+    "type": "long",
+    "q": "(b) (i) Why is the van't Hoff factor of ethanoic acid in benzene close to 0.5? (ii) Find the osmotic pressure of a solution of $2.32 \\times 10^{-2}$ g of K$_2$SO$_4$ (174 g mol$^{-1}$) in 2 L at 25 °C, assuming complete dissociation. ($R$ = 0.082 L atm K$^{-1}$ mol$^{-1}$) (iii) 25.6 g of sulphur in 1000 g of benzene lowers the freezing point by 0.512 K. Find the molecular formula of sulphur S$_x$. ($K_f$ = 5.12 K kg mol$^{-1}$)",
+    "solution": {
+     "steps": [
+      {
+       "t": "(i) Ethanoic acid dimerises by hydrogen bonding in benzene, nearly halving the number of particles.",
+       "m": 1
+      },
+      {
+       "t": "(ii) $n = 1.333 \\times 10^{-4}$ mol; $\\pi = 3 \\times \\dfrac{1.333 \\times 10^{-4}}{2} \\times 0.082 \\times 298 = 4.89 \\times 10^{-3}$ atm",
+       "m": 2
+      },
+      {
+       "t": "(iii) $M = \\dfrac{1000 \\times 5.12 \\times 25.6}{0.512 \\times 1000} = 256$; $x$ = 256/32 = 8: S$_8$",
+       "m": 2
+      }
+     ],
+     "final": "(ii) $4.89 \\times 10^{-3}$ atm  (iii) S$_8$"
+    },
+    "verify": [
+     {
+      "expr": "3*(2.32e-2/174)/2*0.082*298",
+      "expected": 0.004887
+     },
+     {
+      "expr": "1000*5.12*25.6/(0.512*1000)/32",
+      "expected": 8
+     }
+    ]
+   }
+  },
+  {
+   "id": "py127",
+   "type": "long",
+   "topic": "t9",
+   "marks": 5,
+   "source": {
+    "year": 2019,
+    "kind": "main",
+    "set": "56/5/2",
+    "q": "26",
+    "marks": 5,
+    "repeats": [
+     "2019 56/5/3 Q27"
+    ]
+   },
+   "q": "(a) Draw a graph of vapour pressure against temperature and use it to explain the elevation of boiling point of a solvent in a solution. (b) Find the osmotic pressure of a solution of 25 mg of K$_2$SO$_4$ in 2 L of water at 25 °C, assuming complete dissociation.",
+   "solution": {
+    "figure": "@file:figures/bp_elevation.svg",
+    "steps": [
+     {
+      "t": "(a) Draw both curves (solution below solvent) and the 1.013 bar line; the solution reaches 1.013 bar at a higher temperature $T_b$, so $\\Delta T_b = T_b - T_b^\\circ$. The lowering is caused by the non-volatile solute.",
+      "m": 2
+     },
+     {
+      "t": "(b) $i$ = 3; $n$ = 0.025/174 = $1.44 \\times 10^{-4}$ mol; $\\pi = 3 \\times \\dfrac{1.44 \\times 10^{-4}}{2} \\times 0.0821 \\times 298$",
+      "m": 2
+     },
+     {
+      "t": "= $5.27 \\times 10^{-3}$ atm",
+      "m": 1
+     }
+    ],
+    "final": "$5.27 \\times 10^{-3}$ atm"
+   },
+   "verify": {
+    "expr": "3*(0.025/174)/2*0.0821*298",
+    "expected": 0.00527
+   },
+   "alt": {
+    "type": "long",
+    "q": "OR: (a) Write two characteristics of a non-ideal solution. (b) 2 g of benzoic acid in 25 g of benzene depresses the freezing point by 1.62 K ($K_f$ = 4.9). Find the percentage association if it forms a dimer.",
+    "solution": {
+     "steps": [
+      {
+       "t": "(a) It does not obey Raoult's law over the entire range of concentration; $\\Delta_{mix}H \\neq 0$ and $\\Delta_{mix}V \\neq 0$.",
+       "m": 2
+      },
+      {
+       "t": "(b) $M_{\\text{obs}}$ = 241.98 g mol$^{-1}$; $i$ = 122/241.98 = 0.504; $\\alpha$ = 2(1 - 0.504) = 0.992 (99.2%)",
+       "m": 3
+      }
+     ],
+     "final": "99.2%"
+    },
+    "verify": {
+     "expr": "2*(1-122/(1000*4.9*2/(1.62*25)))",
+     "expected": 0.992
+    }
+   }
+  },
+  {
+   "id": "py107",
+   "type": "long",
+   "topic": "t9",
+   "marks": 5,
+   "source": {
+    "year": 2020,
+    "kind": "main",
+    "set": "56/3/1",
+    "q": "37",
+    "marks": 5,
+    "repeats": [
+     "2020 56/3/2 Q35",
+     "2020 56/3/3 Q36"
+    ]
+   },
+   "q": "(a) A solution containing 5.85 g of NaCl (58.5 g mol$^{-1}$) per litre has an osmotic pressure of 4.75 atm at 27 °C. Find the degree of dissociation of NaCl. ($R$ = 0.082 L atm K$^{-1}$ mol$^{-1}$) (b) State Henry's law. Why is air diluted with helium in scuba divers' tanks?",
+   "solution": {
+    "steps": [
+     {
+      "t": "(a) Calculated $\\pi$ = 0.1 × 0.082 × 300 = 2.46 atm",
+      "m": 1
+     },
+     {
+      "t": "$i$ = 4.75/2.46 = 1.93; $\\alpha = i - 1$ = 0.93 (93%)",
+      "m": 2
+     },
+     {
+      "t": "(b) At constant temperature the partial pressure of a gas is proportional to its mole fraction in solution ($p = K_Hx$). Helium is much less soluble in blood than N$_2$, which reduces the N$_2$ dissolved at depth and so the risk of bends.",
+      "m": 2
+     }
+    ],
+    "final": "$\\alpha$ = 0.93"
+   },
+   "verify": {
+    "expr": "4.75/(0.1*0.082*300)-1",
+    "expected": 0.931
+   },
+   "alt": {
+    "type": "long",
+    "q": "OR: (a) 19.5 g of F-CH$_2$-COOH (78 g mol$^{-1}$) in 500 g of water depresses the freezing point by 1 °C. Find the degree of dissociation. ($K_f$ = 1.86) (b) Give reasons: (i) 0.1 M KCl has a higher boiling point than 0.1 M glucose; (ii) meat keeps longer when salted.",
+    "solution": {
+     "steps": [
+      {
+       "t": "(a) $i$ = 1/0.93 = 1.075; $\\alpha$ = 0.075",
+       "m": 3
+      },
+      {
+       "t": "(b)(i) KCl dissociates into two ions, so it has more particles. (ii) Bacteria on salted meat lose water by osmosis, shrivel and die.",
+       "m": 2
+      }
+     ],
+     "final": "$\\alpha$ = 0.075"
+    },
+    "verify": {
+     "expr": "1/0.93-1",
+     "expected": 0.0753
+    }
+   }
+  },
+  {
+   "id": "py128",
+   "type": "mcq",
+   "topic": "t3",
+   "marks": 1,
+   "source": {
+    "year": 2026,
+    "kind": "sqp",
+    "set": "SQP 2026-27",
+    "q": "5",
+    "marks": 1
+   },
+   "q": "A gas above its solution is in dynamic equilibrium. The gas is then compressed to a smaller volume, raising the pressure over the solution. Which statement is true?",
+   "options": [
+    "Solubility of the gas increases until dynamic equilibrium is reached again",
+    "Solubility of the gas decreases until dynamic equilibrium is reached again",
+    "Solubility of the gas increases until static equilibrium is reached",
+    "Solubility of the gas decreases until static equilibrium is reached"
+   ],
+   "answer": 0,
+   "explanation": "More gas particles strike the surface per second, so more dissolve until a new **dynamic** equilibrium is set up (NCERT Fig. 1.1) - Henry's law."
+  },
+  {
+   "id": "py129",
+   "type": "short",
+   "topic": "t5",
+   "marks": 3,
+   "competency": true,
+   "source": {
+    "year": 2026,
+    "kind": "sqp",
+    "set": "SQP 2026-27",
+    "q": "25",
+    "marks": 3
+   },
+   "q": "(I) Aman mixes 10 mL of acetone with 10 mL of carbon disulphide; the volume is not 20 mL. (a) What would he observe? Comment. (b) If chloroform replaced carbon disulphide, how would the volume change? Give a reason. (II) A litre of sea water (1030 g) contains about $6 \\times 10^{-3}$ g of dissolved oxygen. Find the concentration in ppm.",
+   "solution": {
+    "steps": [
+     {
+      "t": "(I)(a) Slightly more than 20 mL: CS$_2$-acetone interactions are weaker than the pure-liquid interactions (positive deviation, $\\Delta_{mix}V > 0$).",
+      "m": 1
+     },
+     {
+      "t": "(b) Slightly less than 20 mL: chloroform and acetone hydrogen bond, so the interactions are stronger (negative deviation).",
+      "m": 1
+     },
+     {
+      "t": "(II) ppm = $\\dfrac{6 \\times 10^{-3}}{1030} \\times 10^6 = 5.8$ ppm",
+      "m": 1
+     }
+    ],
+    "final": "5.8 ppm"
+   },
+   "verify": {
+    "expr": "6e-3/1030*1e6",
+    "expected": 5.83
+   }
+  }
+ ]
+}

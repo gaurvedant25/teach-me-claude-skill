@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "board": "CBSE",
+    "class": "XII",
+    "subject": "Chemistry",
+    "subjectCode": "043",
+    "session": "2026-27",
+    "chapter": "Solutions",
+    "chapterNo": 1,
+    "unitLabel": "Unit",
+    "pageTitle": "Solutions · Class 12 Chemistry",
+    "book": "NCERT Chemistry Part I (Reprint 2026-27), Unit 1",
+    "weightage": "7 of 70 theory marks",
+    "generated": "2026-10-19",
+    "lastVerified": "2026-10-19",
+    "accent": "chemistry",
+    "summary": "A solution is a uniform mixture, and this unit is about two things: how much solute is in it (concentration, Henry's law, Raoult's law) and what the dissolved particles do to the solvent (the four **colligative properties**). The numericals are predictable and score well: almost every board paper since 2019 has asked a colligative-property calculation with the van't Hoff factor, plus a theory question on deviations from Raoult's law or azeotropes.",
+    "pattern": [
+      "Unit weightage in 2026-27: **7 marks** out of 70 (CBSE curriculum 2026-27). The paper has 33 questions; calculators and log tables are **not allowed**, so numbers are chosen to divide neatly.",
+      "**1-mark items (Section A)**: almost every set has one or two - which solution has the lowest freezing point / highest osmotic pressure, azeotrope type from boiling point, Henry's constant and temperature, and assertion-reason on ideal solutions or colligative properties.",
+      "**2-mark items (Section B)**: deviation from Raoult's law with reason (phenol + aniline, ethanol + acetone, chloroform + acetone appeared in 2026 sets), Henry's law applications (bends, anoxia), azeotrope definitions, two-step numericals.",
+      "**3-mark numericals (Section C)**: the favourites are association of benzoic / acetic acid in benzene (2020, 2023, 2025, 2026), freezing point or boiling point of an electrolyte solution with complete dissociation (MgSO$_4$, MgBr$_2$, CaCl$_2$, Na$_2$SO$_4$), molar mass from lowering of vapour pressure (the '31.84 mm Hg' family: 2023, 2024, 2025, 2026), and ethylene glycol antifreeze.",
+      "**4-mark case studies (Section D)** on this unit appeared in 2023 (compartment), 2024 (compartment), 2025 (main) and 2026 (main): passages on osmosis, Raoult's law and azeotropes with one calculation inside.",
+      "**5-mark questions (Section E)** in 2023, 2024, 2025 and 2026 combined a numerical (3 marks) with two short theory parts (Henry's law, ideal solution definition, van't Hoff factor below 1)."
+    ],
+    "studyPlan": [
+      {"title": "Day 1 - Concentration and Henry's law", "items": ["Topics 1-3", "NCERT Intext 1.1-1.7", "Exercises 1.1-1.13"], "time": "2.5 h"},
+      {"title": "Day 2 - Raoult's law, ideal and non-ideal solutions, azeotropes", "items": ["Topics 4-5", "Intext 1.8", "Exercises 1.14-1.19, 1.23-1.25, 1.36-1.38"], "time": "2.5 h"},
+      {"title": "Day 3 - Colligative properties", "items": ["Topics 6-8", "Intext 1.9-1.12", "Exercises 1.20-1.22, 1.34, 1.40-1.41"], "time": "3 h"},
+      {"title": "Day 4 - van't Hoff factor and past papers", "items": ["Topic 9", "Exercises 1.31-1.33", "All 3-mark PYQs", "One chapter test"], "time": "3 h"},
+      {"title": "Before the exam", "items": ["Revise tab", "Flashcards due", "Your flagged questions"], "time": "45 min"}
+    ],
+    "testPattern": [
+      {"type": ["mcq"], "marks": 1, "n": 5},
+      {"type": ["ar"], "marks": 1, "n": 2},
+      {"marks": 2, "n": 2},
+      {"marks": 3, "n": 2},
+      {"type": ["case"], "n": 1},
+      {"marks": 5, "n": 1}
+    ]
+  },
+  "syllabus": {
+    "inSyllabus": [
+      "Types of solutions",
+      "Expressing concentration of solutions (mass %, volume %, mass by volume %, ppm, mole fraction, molarity, molality)",
+      "Solubility - of solids and of gases in liquids (Henry's law)",
+      "Vapour pressure of liquid solutions (Raoult's law)",
+      "Ideal and non-ideal solutions, azeotropes",
+      "Colligative properties and determination of molar mass",
+      "Abnormal molar masses and the van't Hoff factor"
+    ],
+    "notForExam": [],
+    "note": "Nothing inside this unit is excluded in 2026-27. Separately, CBSE moved four other Class XII topics to formative (school) assessment only - Surface Chemistry, General Principles and Processes of Isolation of Elements, Polymers and Chemistry in Everyday Life - so older papers' questions on colloids or polymers are not in the board exam.",
+    "source": "CBSE Senior Secondary Curriculum 2026-27, Chemistry (043), Unit 1 and the note on formative-only topics"
+  },
+  "sources": [
+    {"title": "CBSE Curriculum 2026-27: Chemistry (043), Classes XI-XII", "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Chemistry_SecP2_2026-27.pdf", "note": "Unit content, 7-mark weightage, formative-only topics, question-paper typology (40% remembering/understanding, 30% applying, 30% analysing/evaluating/creating)."},
+    {"title": "CBSE Circular Acad-14/2026 (1 April 2026): release of the 2026-27 curriculum", "url": "https://cbseacademic.nic.in/web_material/Circulars/2026/14_Circular_2026.pdf", "note": "Confirms this is the curriculum in force for the 2027 board exams."},
+    {"title": "CBSE Sample Question Paper and Marking Scheme 2026-27, Chemistry", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Chemistry-SQP.pdf", "note": "Paper pattern (33 questions, sections A-E, no calculators) and the SQP questions on this unit."},
+    {"title": "CBSE Marking Scheme 2026-27 (sample paper), Chemistry", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Chemistry-MS.pdf", "note": "Official answers and mark split for the SQP questions on this unit."},
+    {"title": "CBSE Sample Question Paper and Marking Scheme 2025-26, Chemistry", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Chemistry-SQP.pdf", "note": "Previous year's SQP questions on this unit."},
+    {"title": "NCERT Chemistry Part I, Unit 1 Solutions (Reprint 2026-27)", "url": "https://ncert.nic.in/textbook/pdf/lech101.pdf", "note": "All definitions, data (Tables 1.1-1.4), examples, in-text questions and exercises."},
+    {"title": "NCERT Chemistry Part I, answers to exercises", "url": "https://ncert.nic.in/textbook/pdf/lech1an.pdf", "note": "Cross-checked against every exercise answer on this page."},
+    {"title": "CBSE previous years' question papers (2019-2026, main and compartment)", "url": "https://www.cbse.gov.in/cbsenew/question-paper.html", "note": "Every past-paper question on this page was read in the official paper of the set it is credited to."},
+    {"title": "CBSE previous years' marking schemes (2019-2026)", "url": "https://www.cbse.gov.in/cbsenew/marking-scheme.html", "note": "Answer keys and mark splits used for the past-paper solutions."}
+  ],
+  "verification": {
+    "checkedOn": "2026-10-19",
+    "notes": [
+      "Syllabus and weightage taken from the CBSE 2026-27 Chemistry curriculum PDF; paper pattern from the 2026-27 SQP, which states there is no change in design for 2026-27.",
+      "Content checked line by line against the NCERT Unit 1 PDF stamped 'Reprint 2026-27' (definitions, Table 1.2 Henry's constants, Table 1.3 Kb/Kf values, Table 1.4 i values, azeotrope data).",
+      "Board papers searched: every English-medium set of the 2019, 2020, 2022, 2023, 2024, 2025 and 2026 main exams and the 2022-2026 compartment exams (more than 100 question papers). The 2022 papers online are Term 2 papers, which did not include this unit. Some sets are scanned images (2024 series 56/4 and 56/5, 2025 series 56/1 and 56/2): their Solutions questions were located through the marking schemes and read from page images.",
+      "Re-checked on 19 Oct 2026 with scripts/ms_crosscheck.py plus manual reading: all 52 MCQ/assertion-reason keys matched the same set's marking scheme; all 80 numerical and written past-paper answers were compared with that set's scheme text or page image. Small rounding differences (e.g. 97.5% vs the scheme's 97.6%) are noted on the questions.",
+      "Every numerical answer on the page (NCERT, past papers, practice) is recomputed in Python by the build step; the page does not build if any answer is off by more than 1%.",
+      "Two official answers needed comment: NCERT's printed answer to Exercise 1.26 (5 M) assumes the solution weighs 1 kg; and the 2025-26 SQP marking scheme prints 22.9 mm Hg for Q22 where its own expression gives 22.8 mm Hg. Both are explained where they appear."
+    ]
+  },
+  "revision": {
+    "keyPoints": [
+      "Molarity changes with temperature (volume changes); mass %, ppm, mole fraction and molality do not.",
+      "Henry's law: $p = K_H x$. Higher $K_H$ means lower solubility. $K_H$ rises with temperature, so gases dissolve less in warm water.",
+      "Raoult's law (volatile components): $p_i = x_i p_i^\circ$; $p_{\text{total}} = p_1^\circ + (p_2^\circ - p_1^\circ)x_2$. The vapour is richer in the more volatile component.",
+      "Raoult's law is a special case of Henry's law with $K_H = p_1^\circ$.",
+      "Ideal solution: obeys Raoult's law at all concentrations, $\Delta_{mix}H = 0$, $\Delta_{mix}V = 0$, A-B forces equal A-A and B-B forces (benzene + toluene, n-hexane + n-heptane).",
+      "Positive deviation: A-B weaker, vapour pressure higher, $\Delta_{mix}H > 0$, $\Delta_{mix}V > 0$ (ethanol + acetone, CS$_2$ + acetone) - forms minimum boiling azeotropes (ethanol-water, about 95% ethanol by volume).",
+      "Negative deviation: A-B stronger, vapour pressure lower, $\Delta_{mix}H < 0$, $\Delta_{mix}V < 0$ (phenol + aniline, chloroform + acetone) - forms maximum boiling azeotropes (HNO$_3$ 68% + water 32% by mass, 393.5 K).",
+      "Colligative properties depend on the number of solute particles, not their nature: relative lowering of vapour pressure, $\Delta T_b$, $\Delta T_f$, osmotic pressure.",
+      "$\dfrac{p_1^\circ - p_1}{p_1^\circ} = x_2$;  $\Delta T_b = iK_b m$;  $\Delta T_f = iK_f m$;  $\pi = iCRT$.",
+      "$K_b$ and $K_f$ depend only on the solvent; units K kg mol$^{-1}$. Water: $K_b$ = 0.52, $K_f$ = 1.86 K kg mol$^{-1}$.",
+      "Osmotic pressure is the best method for proteins and polymers: measured at room temperature, uses molarity, and is large even for very dilute solutions.",
+      "0.9% (m/V) NaCl is isotonic with blood cells; above it cells shrink (hypertonic), below it they swell (hypotonic).",
+      "Reverse osmosis: apply more than the osmotic pressure on the solution side; used to desalinate sea water with cellulose acetate membranes.",
+      "$i$ = normal molar mass / abnormal molar mass = observed / calculated colligative property. $i > 1$ dissociation, $i < 1$ association.",
+      "Dissociation: $\alpha = \dfrac{i-1}{n-1}$. Dimerisation: $i = 1 - \dfrac{\alpha}{2}$, so $\alpha = 2(1-i)$."
+    ],
+    "mistakes": [
+      "Using grams of solvent instead of kilograms in molality (divide by 1000).",
+      "Using the mass of the solution instead of the mass of the solvent for molality.",
+      "Forgetting the van't Hoff factor when the solute is an electrolyte (NaCl: 2, CaCl$_2$ and Na$_2$SO$_4$: 3, Al$_2$(SO$_4$)$_3$: 5).",
+      "Taking $\Delta T_f$ as the freezing point. The freezing point is $T_f^\circ - \Delta T_f$ (273.15 K - $\Delta T_f$ for water).",
+      "Mixing units of $R$: 0.0821 L atm K$^{-1}$ mol$^{-1}$ (atm), 0.083 L bar K$^{-1}$ mol$^{-1}$ (bar), 8.314 J K$^{-1}$ mol$^{-1}$ (Pa with m$^3$).",
+      "Writing 'osmotic pressure is proportional to molality' - it is molarity. $\Delta T_b$ and $\Delta T_f$ use molality.",
+      "Saying an ideal solution obeys Henry's law - say it obeys Raoult's law over the entire range of concentration.",
+      "Mixing up which deviation gives which azeotrope: positive gives minimum boiling, negative gives maximum boiling.",
+      "Comparing equal-percentage solutions by $i$ alone. 1% KCl vs 1% CaCl$_2$: compare $i$ / molar mass (2/74.5 vs 3/111).",
+      "Dropping units in the final answer. Several schemes for this unit say so explicitly for a specific question - e.g. 2019 Set 56/3/1 (osmotic pressure), 2023 compartment 56/C/1 and 2024 compartment 56/S/1 (molar mass): deduct half a mark for no or incorrect unit. Not every scheme states it, but always write the unit."
+    ],
+    "mnemonics": [
+      "**P**ositive deviation - **P**ushes vapour pressure up, solution boils **lower** (minimum boiling). Negative deviation does the opposite.",
+      "Isotonic **'iso = same'**: same osmotic pressure. **Hyper** = more solute (cell shrivels), **hypo** = less solute (cell swells, like a hippo).",
+      "**B**oiling uses **K$_b$**, **F**reezing uses **K$_f$**; both use **m**olality. **O**smotic pressure uses **M**olarity - the only one with volume."
+    ],
+    "examTips": [
+      "Write the formula first, then substitute with units, then the answer with units. Mark splits differ by question (look at the past-paper solutions on this page for the official split of each); the 2026-27 SQP marking scheme for Q28 gives half marks for its intermediate steps.",
+      "For deviation questions write three things: type of deviation, the A-B vs A-A/B-B interaction reason, and the consequence asked (volume change, temperature change, azeotrope type).",
+      "In 'which has the lowest freezing point' questions, compare $i \times$ concentration. For equal molarities, the solute giving the most ions wins.",
+      "For association in benzene, state the equilibrium $2A \rightleftharpoons A_2$ and show $i = 1 - \alpha/2$ before solving.",
+      "When an assertion-reason pair is about colligative properties, check whether the reason really is the cause (lowering of vapour pressure causes $\Delta T_b$ and $\Delta T_f$).",
+      "No calculator: keep fractions until the end and cancel. Most board numbers (31.84/32, 0.512, 1.86 x 0.5) are designed to cancel."
+    ],
+    "lastMinute": [
+      "I can define: solution, molarity, molality, mole fraction, ppm, Henry's law, Raoult's law (both forms), ideal solution, azeotrope, colligative property, osmosis, osmotic pressure, isotonic, reverse osmosis, abnormal molar mass, van't Hoff factor.",
+      "I can give one example each: ideal pair, positive deviation pair, negative deviation pair, minimum and maximum boiling azeotrope, solid solution with a gas solute (H$_2$ in Pd).",
+      "I can draw: vapour pressure vs mole fraction for an ideal solution and for both deviations; vapour pressure vs temperature showing $\Delta T_b$ and $\Delta T_f$.",
+      "I can do: molar mass from each colligative property; $i$ and degree of dissociation / association; freezing point of an electrolyte solution.",
+      "I know: $K_f$(water) = 1.86, $K_b$(water) = 0.52 K kg mol$^{-1}$; 0.9% NaCl is normal saline; HNO$_3$ azeotrope 68%, 393.5 K; ethanol azeotrope about 95% by volume."
+    ]
+  }
+}

@@ -1,0 +1,1085 @@
+{
+ "coverage": [
+  {
+   "kind": "NCERT sections",
+   "ref": "1.1 Types of solutions",
+   "where": [
+    "t1-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.2 Expressing concentration (i)-(iv) percentages, ppm",
+   "where": [
+    "t2-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.2 (v) Mole fraction",
+   "where": [
+    "t2-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.2 (vi) Molarity",
+   "where": [
+    "t2-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.2 (vii) Molality; temperature dependence",
+   "where": [
+    "t2-4"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.2 Converting between units",
+   "where": [
+    "t2-5"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.3.1 Solubility of a solid in a liquid",
+   "where": [
+    "t3-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.3.2 Solubility of a gas in a liquid; Henry's law",
+   "where": [
+    "t3-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.3.2 Effect of temperature; applications of Henry's law",
+   "where": [
+    "t3-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.4.1 Vapour pressure of solutions of liquids in liquids",
+   "where": [
+    "t4-1",
+    "t4-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.4.2 Raoult's law as a special case of Henry's law",
+   "where": [
+    "t4-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.4.3 Vapour pressure of solutions of solids in liquids",
+   "where": [
+    "t4-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.5.1 Ideal solutions",
+   "where": [
+    "t5-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.5.2 Non-ideal solutions (deviations)",
+   "where": [
+    "t5-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.5.2 Azeotropes",
+   "where": [
+    "t5-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.6 Colligative properties",
+   "where": [
+    "t6-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.6.1 Relative lowering of vapour pressure",
+   "where": [
+    "t6-1",
+    "t6-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.6.2 Elevation of boiling point",
+   "where": [
+    "t7-1",
+    "t7-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.6.3 Depression of freezing point",
+   "where": [
+    "t7-2",
+    "t7-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.6.4 Osmosis and osmotic pressure",
+   "where": [
+    "t8-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.6.4 Isotonic, hypertonic, hypotonic solutions",
+   "where": [
+    "t8-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.6.5 Reverse osmosis and water purification",
+   "where": [
+    "t8-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.7 Abnormal molar masses; van't Hoff factor",
+   "where": [
+    "t9-1",
+    "t9-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT sections",
+   "ref": "1.7 Degree of dissociation and association",
+   "where": [
+    "t9-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.1",
+   "where": [
+    "t2-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.2",
+   "where": [
+    "t2-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.3",
+   "where": [
+    "t2-4"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.4",
+   "where": [
+    "t3-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.5",
+   "where": [
+    "t4-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.6",
+   "where": [
+    "t6-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.7",
+   "where": [
+    "t7-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.8",
+   "where": [
+    "t7-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.9",
+   "where": [
+    "t7-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.10",
+   "where": [
+    "t7-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.11",
+   "where": [
+    "t8-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.12",
+   "where": [
+    "t9-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT worked examples",
+   "ref": "Example 1.13",
+   "where": [
+    "t9-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.1 Effect of pressure on gas solubility",
+   "where": [
+    "t3-2"
+   ],
+   "status": "covered",
+   "note": "Redrawn as a schematic."
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.2 Henry's law plot (HCl in cyclohexane)",
+   "where": [
+    "t3-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.3 Vapour pressure vs mole fraction, ideal solution",
+   "where": [
+    "t4-1"
+   ],
+   "status": "covered",
+   "note": "Plus the interactive vapour-pressure model."
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.4 Decrease of vapour pressure by a non-volatile solute",
+   "where": [
+    "t4-3"
+   ],
+   "status": "covered",
+   "note": "Redrawn as a schematic."
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.5 p₁ against x₁ for a non-volatile solute",
+   "where": [
+    "t4-3",
+    "t4-q7"
+   ],
+   "status": "covered",
+   "note": "Described in words and tested in a question; not drawn."
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.6 Positive and negative deviations",
+   "where": [
+    "t5-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.7 Elevation of boiling point",
+   "where": [
+    "t7-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.8 Depression of freezing point",
+   "where": [
+    "t7-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.9 Osmosis (thistle funnel)",
+   "where": [
+    "t8-1"
+   ],
+   "status": "covered",
+   "note": "Plus the interactive osmosis model."
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.10 Osmotic pressure stops osmosis",
+   "where": [
+    "t8-1"
+   ],
+   "status": "covered",
+   "note": "Shown in the same figure as 1.9."
+  },
+  {
+   "kind": "NCERT figures",
+   "ref": "Fig. 1.11 Reverse osmosis",
+   "where": [
+    "t8-2"
+   ],
+   "status": "covered",
+   "note": "Redrawn as a schematic."
+  },
+  {
+   "kind": "NCERT tables",
+   "ref": "Table 1.1 Types of solutions",
+   "where": [
+    "t1-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT tables",
+   "ref": "Table 1.2 Henry's law constants",
+   "where": [
+    "t3-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT tables",
+   "ref": "Table 1.3 Kb and Kf values",
+   "where": [
+    "t7-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT tables",
+   "ref": "Table 1.4 van't Hoff factors",
+   "where": [
+    "t9-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.1",
+   "where": [
+    "nc-in-1-1",
+    "t2-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.2",
+   "where": [
+    "nc-in-1-2",
+    "t2-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.3",
+   "where": [
+    "nc-in-1-3",
+    "t2-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.4",
+   "where": [
+    "nc-in-1-4",
+    "t2-4"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.5",
+   "where": [
+    "nc-in-1-5",
+    "t2-5"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.6",
+   "where": [
+    "nc-in-1-6"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.7",
+   "where": [
+    "nc-in-1-7",
+    "t3-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.8",
+   "where": [
+    "nc-in-1-8",
+    "t4-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.9",
+   "where": [
+    "nc-in-1-9",
+    "t6-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.10",
+   "where": [
+    "nc-in-1-10",
+    "t7-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.11",
+   "where": [
+    "nc-in-1-11",
+    "t7-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT in-text questions",
+   "ref": "Intext 1.12",
+   "where": [
+    "nc-in-1-12",
+    "t8-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.1",
+   "where": [
+    "nc-ex-1-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.2",
+   "where": [
+    "nc-ex-1-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.3",
+   "where": [
+    "nc-ex-1-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.4",
+   "where": [
+    "nc-ex-1-4",
+    "t2-5"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.5",
+   "where": [
+    "nc-ex-1-5"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.6",
+   "where": [
+    "nc-ex-1-6",
+    "t2-5"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.7",
+   "where": [
+    "nc-ex-1-7",
+    "t2-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.8",
+   "where": [
+    "nc-ex-1-8"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.9",
+   "where": [
+    "nc-ex-1-9"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.10",
+   "where": [
+    "nc-ex-1-10"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.11",
+   "where": [
+    "nc-ex-1-11"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.12",
+   "where": [
+    "nc-ex-1-12"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.13",
+   "where": [
+    "nc-ex-1-13"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.14",
+   "where": [
+    "nc-ex-1-14"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.15",
+   "where": [
+    "nc-ex-1-15"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.16",
+   "where": [
+    "nc-ex-1-16"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.17",
+   "where": [
+    "nc-ex-1-17"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.18",
+   "where": [
+    "nc-ex-1-18"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.19",
+   "where": [
+    "nc-ex-1-19",
+    "t6-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.20",
+   "where": [
+    "nc-ex-1-20",
+    "t7-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.21",
+   "where": [
+    "nc-ex-1-21",
+    "t7-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.22",
+   "where": [
+    "nc-ex-1-22",
+    "t8-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.23",
+   "where": [
+    "nc-ex-1-23"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.24",
+   "where": [
+    "nc-ex-1-24",
+    "t3-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.25",
+   "where": [
+    "nc-ex-1-25",
+    "t3-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.26",
+   "where": [
+    "nc-ex-1-26"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.27",
+   "where": [
+    "nc-ex-1-27"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.28",
+   "where": [
+    "nc-ex-1-28"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.29",
+   "where": [
+    "nc-ex-1-29"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.30",
+   "where": [
+    "nc-ex-1-30"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.31",
+   "where": [
+    "nc-ex-1-31",
+    "t9-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.32",
+   "where": [
+    "nc-ex-1-32",
+    "t9-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.33",
+   "where": [
+    "nc-ex-1-33",
+    "t9-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.34",
+   "where": [
+    "nc-ex-1-34"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.35",
+   "where": [
+    "nc-ex-1-35"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.36",
+   "where": [
+    "nc-ex-1-36"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.37",
+   "where": [
+    "nc-ex-1-37"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.38",
+   "where": [
+    "nc-ex-1-38",
+    "t4-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.39",
+   "where": [
+    "nc-ex-1-39"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.40",
+   "where": [
+    "nc-ex-1-40",
+    "t9-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "NCERT exercises",
+   "ref": "Exercise 1.41",
+   "where": [
+    "nc-ex-1-41",
+    "t9-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "CBSE 2026-27 syllabus lines",
+   "ref": "Types of solutions",
+   "where": [
+    "t1-1"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "CBSE 2026-27 syllabus lines",
+   "ref": "Expressing concentration (mass %, volume %, mass by volume %, ppm, mole fraction, molarity, molality)",
+   "where": [
+    "t2-1",
+    "t2-2",
+    "t2-3",
+    "t2-4",
+    "t2-5"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "CBSE 2026-27 syllabus lines",
+   "ref": "Solubility of solids and gases; Henry's law",
+   "where": [
+    "t3-1",
+    "t3-2",
+    "t3-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "CBSE 2026-27 syllabus lines",
+   "ref": "Vapour pressure of liquid solutions; Raoult's law",
+   "where": [
+    "t4-1",
+    "t4-2",
+    "t4-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "CBSE 2026-27 syllabus lines",
+   "ref": "Ideal and non-ideal solutions; azeotropes",
+   "where": [
+    "t5-1",
+    "t5-2",
+    "t5-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "CBSE 2026-27 syllabus lines",
+   "ref": "Colligative properties and determination of molar mass",
+   "where": [
+    "t6-1",
+    "t6-2",
+    "t7-1",
+    "t7-2",
+    "t7-3",
+    "t8-1",
+    "t8-2"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "CBSE 2026-27 syllabus lines",
+   "ref": "Abnormal molar masses; van't Hoff factor",
+   "where": [
+    "t9-1",
+    "t9-2",
+    "t9-3"
+   ],
+   "status": "covered"
+  },
+  {
+   "kind": "Other",
+   "ref": "NCERT Exemplar problems",
+   "where": [],
+   "status": "expand",
+   "note": "Not included on this page; practice comes from NCERT, past papers and original questions."
+  }
+ ],
+ "verification": {
+  "checks": [
+   {
+    "what": "Numerical answers recomputed",
+    "how": "Every numerical question and worked example carries a Python expression built from its own data; the build fails if any stored answer differs by more than its tolerance.",
+    "status": "done",
+    "result": "169 questions plus all worked examples recompute correctly."
+   },
+   {
+    "what": "Answer-checker values",
+    "how": "Each answer box's accepted value must agree with an independent recomputation (build-time check).",
+    "status": "done",
+    "result": "134 answer boxes agree."
+   },
+   {
+    "what": "Past-paper MCQ and assertion-reason keys",
+    "how": "scripts/ms_crosscheck.py located each key in the same set's marking scheme; the two it could not parse were read by hand.",
+    "status": "done",
+    "result": "52 of 52 keys match the official scheme."
+   },
+   {
+    "what": "Past-paper numerical and written answers",
+    "how": "Compared with the same set's marking scheme: 32 numbers found automatically; the rest read in the scheme text or, where equations were images, in rendered page images.",
+    "status": "done",
+    "result": "80 of 80 agree. Small rounding differences are noted on 8 questions."
+   },
+   {
+    "what": "Past-paper provenance",
+    "how": "Year, set, question number and marks for every item; each labelled restated or adapted.",
+    "status": "done",
+    "result": "127 restated, 5 adapted (case-study passages summarised)."
+   },
+   {
+    "what": "Facts against the NCERT chapter (Reprint 2026-27)",
+    "how": "Line-by-line check when the page was first built (19 Oct 2026); items changed in this review were re-checked against the NCERT text.",
+    "status": "done",
+    "result": "One wording issue found and explained (sucrose 373.52 K)."
+   },
+   {
+    "what": "Syllabus scope (CBSE 2026-27)",
+    "how": "Unit content compared with the 2026-27 curriculum PDF.",
+    "status": "done",
+    "result": "Nothing in this unit is excluded this session."
+   },
+   {
+    "what": "Maths rendering",
+    "how": "Every TeX string test-rendered with the same KaTeX build the page uses.",
+    "status": "done",
+    "result": "0 failures."
+   },
+   {
+    "what": "Nothing lost in the upgrade",
+    "how": "scripts/preserve_check.py compared the previous version with this one.",
+    "status": "done",
+    "result": "0 items removed; 255 original questions and 67 flashcards kept with the same ids; reworded lesson text was restructured into the new worked-example format."
+   },
+   {
+    "what": "Independent second review",
+    "how": "A separate reviewer re-reading the content against NCERT and the schemes.",
+    "status": "open",
+    "result": "Not done. Treat any remaining slip as possible and report it."
+   }
+  ]
+ },
+ "corrections": [
+  {
+   "item": "Sucrose boiling point (lesson 7.1)",
+   "change": "NCERT's 373.52 K for 1 mol sucrose in 1 kg water equals 373 + 0.52; with 373.15 K the equation gives 373.67 K. Added an explanation, the dilute-solution caveat, and the 2024 compartment scheme that accepts both 373 and 373.15 K. Flashcard fc-048 now carries the same note.",
+   "status": "Clarified"
+  },
+  {
+   "item": "'Every step carries half a mark' and 'missing units always cost half a mark'",
+   "change": "Replaced with question-specific evidence: named schemes that state the unit deduction; mark splits shown per question; practice splits labelled as suggestions.",
+   "status": "Corrected"
+  },
+  {
+   "item": "NCERT Example 1.9 (antifreeze)",
+   "change": "Kept precision to the end: 2.25 K and 270.90 K. NCERT's 2.2 K / 270.95 K come from rounding the molality early; both are explained.",
+   "status": "Corrected"
+  },
+  {
+   "item": "Freezing-point rankings (py09, py20, py34 and lesson 9.2)",
+   "change": "Taught as i × molality; the assumption that molarity ≈ molality for dilute aqueous solutions is now stated, and equal-mass-% comparisons use i/M.",
+   "status": "Clarified"
+  },
+  {
+   "item": "Formula labels",
+   "change": "Every formula is labelled exact, definition, experimental law, ideal or dilute-solution approximation, with conditions.",
+   "status": "Added"
+  },
+  {
+   "item": "Notation M",
+   "change": "Molarity no longer shares the symbol M with molar mass in lesson formulas; a notation note explains both uses.",
+   "status": "Clarified"
+  },
+  {
+   "item": "py54 (KCl vs methyl alcohol)",
+   "change": "Added the marking scheme's own reason (methanol disrupts water-water hydrogen bonding).",
+   "status": "Added"
+  },
+  {
+   "item": "Rounding differences with marking schemes",
+   "change": "py91, py93, py95, py97, py100, py105, py113 and py86 now note the scheme's printed value; both are accepted by the answer checker.",
+   "status": "Clarified"
+  },
+  {
+   "item": "Verification claim",
+   "change": "The general statement that every past-paper answer was compared has been replaced by the counted record above.",
+   "status": "Corrected"
+  },
+  {
+   "item": "Case-study passages",
+   "change": "Five case studies whose passages are summarised are labelled 'adapted' instead of being presented as original text.",
+   "status": "Relabelled"
+  },
+  {
+   "item": "Missing figures",
+   "change": "Schematics added for NCERT Figs 1.1, 1.4 and 1.11.",
+   "status": "Added"
+  }
+ ]
+}

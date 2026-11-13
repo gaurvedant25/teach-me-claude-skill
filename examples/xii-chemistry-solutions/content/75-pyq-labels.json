@@ -1,0 +1,936 @@
+{
+ "patches": {
+  "py01": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py02": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py03": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py04": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py05": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py06": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py07": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py08": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py09": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py10": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py11": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py12": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py13": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py14": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py15": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py16": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py17": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py18": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py19": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py20": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py21": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py22": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py23": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py24": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py25": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py26": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py27": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py28": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py29": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py30": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py31": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py32": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py33": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py34": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py35": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py36": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py37": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py38": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py39": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py40": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py41": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py42": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py43": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py44": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py45": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py46": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py47": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py48": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py49": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py50": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py51": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Answer 'A' matches this set's marking scheme (checked in this review)."
+   }
+  },
+  "py52": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py53": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py54": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review. The scheme's reason for methyl alcohol is that it hydrogen-bonds with water, disrupting water-water hydrogen bonding, which lowers the boiling point; include that point."
+   },
+   "solution": {
+    "notes": "Marking scheme (2026, 56/3/2): KCl dissociates, giving more particles, so the boiling point rises; methyl alcohol forms hydrogen bonds with water, disrupting water-water hydrogen bonding, and the boiling point falls. Write the scheme's point as well as the vapour-pressure explanation."
+   }
+  },
+  "py55": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py56": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py57": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py58": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py59": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py60": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py61": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py62": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py63": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py64": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py65": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py66": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py67": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py68": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py69": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py70": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review."
+   }
+  },
+  "py71": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py72": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py73": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py74": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py75": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py76": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py77": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review."
+   }
+  },
+  "py78": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py79": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py80": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py81": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py82": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py84": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py85": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py86": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Checked in this review: read from the scheme page image. The scheme gives 47.488 °C (320.638 K)."
+   }
+  },
+  "py87": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py88": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py89": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py90": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py91": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review. The scheme rounds $i$ to 0.512 first and prints 97.6%; keeping more digits gives 97.5%. Both are the same calculation."
+   }
+  },
+  "py92": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py93": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review. The scheme prints 0.07 mm Hg (it rounds the mole fraction to $2.88 \times 10^{-3}$)."
+   }
+  },
+  "py94": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review."
+   }
+  },
+  "py95": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review. The scheme rounds $i$ to 0.527 first and prints 94.6%; keeping more digits gives 94.5%."
+   }
+  },
+  "py96": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py97": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review. The scheme prints −0.725 °C (it rounds the molality to 0.390 first)."
+   }
+  },
+  "py98": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review."
+   }
+  },
+  "py99": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py100": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review. The scheme accepts $T_b$ = 373.15 + 0.34 = 373.49 K or 373 + 0.34 = 373.34 K."
+   }
+  },
+  "py101": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py102": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py103": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py104": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py105": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review. The scheme prints 50 902 g mol$^{-1}$ (rounding)."
+   }
+  },
+  "py106": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py108": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py109": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py110": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review."
+   }
+  },
+  "py111": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py112": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py113": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value read in this set's scheme during this review. The scheme prints 0.0506 mol L$^{-1}$ after rounding 30/180 to 0.166; without early rounding the value is 0.0509."
+   }
+  },
+  "py130": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py131": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py132": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py133": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   }
+  },
+  "py134": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py115": {
+   "form": "adapted",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   },
+   "adaptNote": "The passage is summarised in our own words; the questions and their data are kept as in the paper."
+  },
+  "py116": {
+   "form": "adapted",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   },
+   "adaptNote": "The passage is summarised in our own words; the questions and their data are kept as in the paper."
+  },
+  "py117": {
+   "form": "adapted",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   },
+   "adaptNote": "The passage is summarised in our own words; the questions and their data are kept as in the paper."
+  },
+  "py118": {
+   "form": "adapted",
+   "ms": {
+    "status": "checked",
+    "note": "Value points compared with this set's marking scheme during this review."
+   },
+   "adaptNote": "The passage is summarised in our own words; the questions and their data are kept as in the paper."
+  },
+  "py119": {
+   "form": "adapted",
+   "ms": {
+    "status": "checked",
+    "note": "Checked in this review: all parts compared with the scheme page image."
+   },
+   "adaptNote": "The passage is summarised in our own words; the questions and their data are kept as in the paper."
+  },
+  "py120": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py121": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py122": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Checked in this review: compared with the scheme page image."
+   }
+  },
+  "py123": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py124": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py125": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py126": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Checked in this review: all parts compared with the scheme page image."
+   }
+  },
+  "py127": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Checked in this review: compared with the scheme page image."
+   }
+  },
+  "py107": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  },
+  "py128": {
+   "form": "restated",
+   "ms": {
+    "status": "key",
+    "note": "Key matched in this review against the scheme for this set."
+   }
+  },
+  "py129": {
+   "form": "restated",
+   "ms": {
+    "status": "checked",
+    "note": "Final value found in this set's scheme during this review."
+   }
+  }
+ }
+}
